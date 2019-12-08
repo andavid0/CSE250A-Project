@@ -1,0 +1,6 @@
+CONTIKI_PROJECT = receiver unicast_receiver
+all: $(CONTIKI_PROJECT)
+
+CONTIKI=../../..
+include $(CONTIKI)/Makefile.include
+

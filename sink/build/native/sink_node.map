@@ -1,0 +1,2283 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/native/contiki-ng-native.a(contiki-main.o)
+                              /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o (main)
+build/native/contiki-ng-native.a(autostart.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (autostart_start)
+build/native/contiki-ng-native.a(log.o)
+                              sink_node.o (log_6addr)
+build/native/contiki-ng-native.a(energest.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (energest_init)
+build/native/contiki-ng-native.a(etimer.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (etimer_process)
+build/native/contiki-ng-native.a(node-id.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (node_id_init)
+build/native/contiki-ng-native.a(ctimer.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (ctimer_init)
+build/native/contiki-ng-native.a(rtimer.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (rtimer_init)
+build/native/contiki-ng-native.a(process.o)
+                              build/native/contiki-ng-native.a(etimer.o) (process_current)
+build/native/contiki-ng-native.a(timer.o)
+                              build/native/contiki-ng-native.a(etimer.o) (timer_set)
+build/native/contiki-ng-native.a(list.o)
+                              build/native/contiki-ng-native.a(ctimer.o) (list_init)
+build/native/contiki-ng-native.a(queuebuf.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (queuebuf_init)
+build/native/contiki-ng-native.a(packetbuf.o)
+                              build/native/contiki-ng-native.a(queuebuf.o) (packetbuf_copyto)
+build/native/contiki-ng-native.a(netstack.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (netstack_init)
+build/native/contiki-ng-native.a(linkaddr.o)
+                              build/native/contiki-ng-native.a(packetbuf.o) (linkaddr_copy)
+build/native/contiki-ng-native.a(nullmac.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (nullmac_driver)
+build/native/contiki-ng-native.a(uip-ds6.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (uip_ds6_get_link_local)
+build/native/contiki-ng-native.a(uip-ds6-route.o)
+                              build/native/contiki-ng-native.a(uip-ds6.o) (uip_ds6_route_init)
+build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+                              build/native/contiki-ng-native.a(uip-ds6.o) (uip_ds6_neighbors_init)
+build/native/contiki-ng-native.a(tcpip.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (tcpip_process)
+build/native/contiki-ng-native.a(uip6.o)
+                              build/native/contiki-ng-native.a(tcpip.o) (uip_aligned_buf)
+build/native/contiki-ng-native.a(uip-nd6.o)
+                              build/native/contiki-ng-native.a(uip6.o) (uip_nd6_init)
+build/native/contiki-ng-native.a(simple-udp.o)
+                              sink_node.o (simple_udp_sendto)
+build/native/contiki-ng-native.a(uiplib.o)
+                              build/native/contiki-ng-native.a(log.o) (uiplib_ipaddr_snprint)
+build/native/contiki-ng-native.a(rpl.o)
+                              sink_node.o (rpl_lite_driver)
+build/native/contiki-ng-native.a(rpl-dag.o)
+                              build/native/contiki-ng-native.a(rpl.o) (curr_instance)
+build/native/contiki-ng-native.a(rpl-dag-root.o)
+                              build/native/contiki-ng-native.a(rpl.o) (rpl_dag_root_set_prefix)
+build/native/contiki-ng-native.a(platform.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (platform_process_args)
+build/native/contiki-ng-native.a(clock.o)
+                              build/native/contiki-ng-native.a(etimer.o) (clock_time)
+build/native/contiki-ng-native.a(tun6-net.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (tun6_net_driver)
+build/native/contiki-ng-native.a(rtimer-arch.o)
+                              build/native/contiki-ng-native.a(rtimer.o) (rtimer_arch_init)
+build/native/contiki-ng-native.a(watchdog.o)
+                              build/native/contiki-ng-native.a(contiki-main.o) (watchdog_init)
+build/native/contiki-ng-native.a(stimer.o)
+                              build/native/contiki-ng-native.a(uip-ds6.o) (stimer_set)
+build/native/contiki-ng-native.a(memb.o)
+                              build/native/contiki-ng-native.a(queuebuf.o) (memb_init)
+build/native/contiki-ng-native.a(random.o)
+                              build/native/contiki-ng-native.a(uip-ds6.o) (random_rand)
+build/native/contiki-ng-native.a(button-hal.o)
+                              build/native/contiki-ng-native.a(platform.o) (button_hal_init)
+build/native/contiki-ng-native.a(serial-line.o)
+                              build/native/contiki-ng-native.a(platform.o) (serial_line_input_byte)
+build/native/contiki-ng-native.a(leds.o)
+                              build/native/contiki-ng-native.a(platform.o) (leds_init)
+build/native/contiki-ng-native.a(nullradio.o)
+                              build/native/contiki-ng-native.a(netstack.o) (nullradio_driver)
+build/native/contiki-ng-native.a(gpio-hal.o)
+                              build/native/contiki-ng-native.a(button-hal.o) (gpio_hal_register_handler)
+build/native/contiki-ng-native.a(nbr-table.o)
+                              build/native/contiki-ng-native.a(uip-ds6-nbr.o) (nbr_table_register)
+build/native/contiki-ng-native.a(link-stats.o)
+                              build/native/contiki-ng-native.a(rpl-dag.o) (link_stats_reset)
+build/native/contiki-ng-native.a(uipbuf.o)
+                              build/native/contiki-ng-native.a(tcpip.o) (uipbuf_clear)
+build/native/contiki-ng-native.a(uip-icmp6.o)
+                              build/native/contiki-ng-native.a(uip6.o) (uip_icmp6_input)
+build/native/contiki-ng-native.a(uip-sr.o)
+                              build/native/contiki-ng-native.a(rpl-dag-root.o) (uip_sr_num_nodes)
+build/native/contiki-ng-native.a(uip-packetqueue)
+                              build/native/contiki-ng-native.a(uip-ds6-nbr.o) (uip_packetqueue_new)
+build/native/contiki-ng-native.a(uip-udp-packet.)
+                              build/native/contiki-ng-native.a(simple-udp.o) (uip_udp_packet_sendto)
+build/native/contiki-ng-native.a(rpl-icmp6.o)
+                              build/native/contiki-ng-native.a(rpl-dag.o) (rpl_icmp6_update_nbr_table)
+build/native/contiki-ng-native.a(rpl-neighbor.o)
+                              build/native/contiki-ng-native.a(rpl-dag.o) (rpl_neighbors)
+build/native/contiki-ng-native.a(rpl-timers.o)
+                              build/native/contiki-ng-native.a(rpl-dag.o) (rpl_timers_schedule_periodic_dis)
+build/native/contiki-ng-native.a(rpl-ext-header.)
+                              build/native/contiki-ng-native.a(rpl.o) (rpl_ext_header_srh_get_next_hop)
+build/native/contiki-ng-native.a(rpl-nbr-policy.)
+                              build/native/contiki-ng-native.a(nbr-table.o) (rpl_nbr_policy_find_removable)
+build/native/contiki-ng-native.a(rpl-mrhof.o)
+                              build/native/contiki-ng-native.a(rpl-dag.o) (rpl_mrhof)
+build/native/contiki-ng-native.a(buttons.o)
+                              build/native/contiki-ng-native.a(button-hal.o) (button_hal_button_count)
+build/native/contiki-ng-native.a(int-master.o)
+                              build/native/contiki-ng-native.a(button-hal.o) (int_master_read_and_disable)
+build/native/contiki-ng-native.a(gpio-hal-arch.o)
+                              build/native/contiki-ng-native.a(gpio-hal.o) (gpio_hal_arch_init)
+build/native/contiki-ng-native.a(ringbuf.o)
+                              build/native/contiki-ng-native.a(serial-line.o) (ringbuf_init)
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o (__libc_csu_init)
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(atexit.oS)
+                              build/native/contiki-ng-native.a(tun6-net.o) (atexit)
+
+As-needed library included to satisfy reference by file (symbol)
+
+librt.so.1                    build/native/contiki-ng-native.a(clock.o) (clock_gettime@@GLIBC_2.2.5)
+libc.so.6                     build/native/contiki-ng-native.a(tun6-net.o) (fflush@@GLIBC_2.2.5)
+
+Allocating common symbols
+Common symbol       size              file
+
+uip_ds6_prefix_list
+                    0x60              build/native/contiki-ng-native.a(uip-ds6.o)
+linkaddr_node_addr  0x8               build/native/contiki-ng-native.a(linkaddr.o)
+periodic_timer      0x40              build/native/contiki-ng-native.a(link-stats.o)
+uip_slen            0x2               build/native/contiki-ng-native.a(uip6.o)
+uip_ds6_timer_periodic
+                    0x20              build/native/contiki-ng-native.a(uip-ds6.o)
+eb_per_time_source  0x30              build/native/contiki-ng-native.a(contiki-main.o)
+unicast_per_neighbor_rpl_storing
+                    0x30              build/native/contiki-ng-native.a(contiki-main.o)
+button_hal_periodic_event
+                    0x1               build/native/contiki-ng-native.a(button-hal.o)
+uip_ds6_netif_addr_list_offset
+                    0x1               build/native/contiki-ng-native.a(uip-ds6.o)
+uip_lladdr          0x8               build/native/contiki-ng-native.a(uip6.o)
+button_hal_press_event
+                    0x1               build/native/contiki-ng-native.a(button-hal.o)
+serial_line_event_message
+                    0x1               build/native/contiki-ng-native.a(serial-line.o)
+uip_appdata         0x8               build/native/contiki-ng-native.a(uip6.o)
+unicast_per_neighbor_rpl_ns
+                    0x30              build/native/contiki-ng-native.a(contiki-main.o)
+uip_ds6_if          0x110             build/native/contiki-ng-native.a(uip-ds6.o)
+uip_flags           0x1               build/native/contiki-ng-native.a(uip6.o)
+uip_ds6_timer_ra    0x10              build/native/contiki-ng-native.a(uip-ds6.o)
+default_common      0x30              build/native/contiki-ng-native.a(contiki-main.o)
+packetbuf_attrs     0x1a              build/native/contiki-ng-native.a(packetbuf.o)
+uip_ds6_addr_size   0x1               build/native/contiki-ng-native.a(uip-ds6.o)
+uip_aligned_buf     0x500             build/native/contiki-ng-native.a(uip6.o)
+contiki_argv        0x8               build/native/contiki-ng-native.a(platform.o)
+rpl_multicast_addr  0x10              build/native/contiki-ng-native.a(rpl.o)
+uip_len             0x2               build/native/contiki-ng-native.a(uip6.o)
+tcpip_event         0x1               build/native/contiki-ng-native.a(tcpip.o)
+uip_sappdata        0x8               build/native/contiki-ng-native.a(uip6.o)
+uip_udp_conns       0x140             build/native/contiki-ng-native.a(uip6.o)
+button_hal_release_event
+                    0x1               build/native/contiki-ng-native.a(button-hal.o)
+packetbuf_addrs     0x10              build/native/contiki-ng-native.a(packetbuf.o)
+uip_udp_conn        0x8               build/native/contiki-ng-native.a(uip6.o)
+curr_instance       0x260             build/native/contiki-ng-native.a(rpl-dag.o)
+uip_conn            0x8               build/native/contiki-ng-native.a(uip6.o)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 sink_node.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(contiki-main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(autostart.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(log.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(energest.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(etimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(node-id.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(ctimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rtimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(process.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(timer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(list.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(queuebuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(packetbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(netstack.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(linkaddr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(nullmac.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip-ds6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(tcpip.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip-nd6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(simple-udp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uiplib.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl-dag.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(platform.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(clock.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(tun6-net.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rtimer-arch.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(watchdog.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(stimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(memb.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(random.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(button-hal.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(serial-line.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(leds.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(nullradio.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(gpio-hal.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(nbr-table.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(link-stats.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uipbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip-icmp6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip-sr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip-packetqueue)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(uip-udp-packet.)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl-timers.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl-ext-header.)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(rpl-mrhof.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(buttons.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(int-master.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/native/contiki-ng-native.a(ringbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(atexit.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+LOAD sink_node.o
+LOAD build/native/contiki-ng-native.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000238                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000238       0x1c
+ *(.interp)
+ .interp        0x0000000000000238       0x1c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x0000000000000254       0x20
+ .note.ABI-tag  0x0000000000000254       0x20 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000274       0x24 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000000298      0xdc8
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000298      0xdc8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x0000000000001060     0x31b0
+ *(.dynsym)
+ .dynsym        0x0000000000001060     0x31b0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000004210     0x256e
+ *(.dynstr)
+ .dynstr        0x0000000000004210     0x256e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x000000000000677e      0x424
+ *(.gnu.version)
+ .gnu.version   0x000000000000677e      0x424 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x0000000000006ba8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000006ba8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x0000000000006ba8       0x80
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000006ba8       0x80 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x0000000000006c28      0xc30
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text.startup
+                0x0000000000006c28        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text     0x0000000000006c28        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.unlikely
+                0x0000000000006c28        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x0000000000006c28      0x1f8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x0000000000006e20      0x690 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local
+                0x00000000000074b0      0x2d0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000007780       0x78 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x00000000000077f8       0x30 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000007828        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x0000000000007828       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x0000000000007840       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000007858      0x378
+ *(.rela.plt)
+ .rela.plt      0x0000000000007858      0x378 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.init           0x0000000000007bd0       0x17
+ *(SORT_NONE(.init))
+ .init          0x0000000000007bd0       0x12 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+                0x0000000000007bd0                _init
+ .init          0x0000000000007be2        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000007bf0      0x260
+ *(.plt)
+ .plt           0x0000000000007bf0      0x260 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000007e50        0x8
+ *(.plt.got)
+ .plt.got       0x0000000000007e50        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000007e60     0xc43e
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely
+                0x0000000000007e60       0xae build/native/contiki-ng-native.a(uip6.o)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *fill*         0x0000000000007f0e        0x2 
+ .text.startup  0x0000000000007f10      0x367 build/native/contiki-ng-native.a(contiki-main.o)
+                0x0000000000007f10                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000000008277        0x9 
+ .text          0x0000000000008280       0x2b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000008280                _start
+ .text          0x00000000000082ab        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x00000000000082ab        0x5 
+ .text          0x00000000000082b0       0xda /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ *fill*         0x000000000000838a        0x6 
+ .text          0x0000000000008390      0x130 sink_node.o
+ .text          0x00000000000084c0        0x0 build/native/contiki-ng-native.a(contiki-main.o)
+ .text          0x00000000000084c0       0x54 build/native/contiki-ng-native.a(autostart.o)
+                0x00000000000084c0                autostart_start
+                0x00000000000084f0                autostart_exit
+ *fill*         0x0000000000008514        0xc 
+ .text          0x0000000000008520      0x3b8 build/native/contiki-ng-native.a(log.o)
+                0x0000000000008520                log_6addr
+                0x0000000000008580                log_6addr_compact_snprint
+                0x0000000000008600                log_6addr_compact
+                0x0000000000008660                log_lladdr
+                0x0000000000008700                log_lladdr_compact
+                0x0000000000008750                log_set_level
+                0x00000000000087e0                log_get_level
+                0x0000000000008870                log_level_to_str
+ *fill*         0x00000000000088d8        0x8 
+ .text          0x00000000000088e0       0x23 build/native/contiki-ng-native.a(energest.o)
+                0x00000000000088e0                energest_init
+                0x00000000000088f0                energest_flush
+                0x0000000000008900                energest_get_total_time
+ *fill*         0x0000000000008903        0xd 
+ .text          0x0000000000008910      0x44d build/native/contiki-ng-native.a(etimer.o)
+                0x0000000000008bb0                etimer_request_poll
+                0x0000000000008bc0                etimer_set
+                0x0000000000008be0                etimer_reset_with_new_interval
+                0x0000000000008c10                etimer_reset
+                0x0000000000008c30                etimer_restart
+                0x0000000000008c50                etimer_adjust
+                0x0000000000008c80                etimer_expired
+                0x0000000000008c90                etimer_expiration_time
+                0x0000000000008ca0                etimer_start_time
+                0x0000000000008cb0                etimer_pending
+                0x0000000000008cc0                etimer_next_expiration_time
+                0x0000000000008ce0                etimer_stop
+ *fill*         0x0000000000008d5d        0x3 
+ .text          0x0000000000008d60       0x1b build/native/contiki-ng-native.a(node-id.o)
+                0x0000000000008d60                node_id_init
+ *fill*         0x0000000000008d7b        0x5 
+ .text          0x0000000000008d80      0x364 build/native/contiki-ng-native.a(ctimer.o)
+                0x0000000000008ea0                ctimer_init
+                0x0000000000008ed0                ctimer_set_with_process
+                0x0000000000008f40                ctimer_set
+                0x0000000000008f50                ctimer_reset
+                0x0000000000008fc0                ctimer_restart
+                0x0000000000009030                ctimer_stop
+                0x0000000000009090                ctimer_expired
+ *fill*         0x00000000000090e4        0xc 
+ .text          0x00000000000090f0       0xaa build/native/contiki-ng-native.a(rtimer.o)
+                0x00000000000090f0                rtimer_init
+                0x0000000000009100                rtimer_set
+                0x0000000000009150                rtimer_run_next
+ *fill*         0x000000000000919a        0x6 
+ .text          0x00000000000091a0      0x44a build/native/contiki-ng-native.a(process.o)
+                0x0000000000009360                process_alloc_event
+                0x0000000000009380                process_start
+                0x00000000000093f0                process_exit
+                0x0000000000009400                process_init
+                0x0000000000009430                process_run
+                0x0000000000009520                process_nevents
+                0x0000000000009540                process_post
+                0x0000000000009590                process_post_synch
+                0x00000000000095b0                process_poll
+                0x00000000000095e0                process_is_running
+ *fill*         0x00000000000095ea        0x6 
+ .text          0x00000000000095f0       0x95 build/native/contiki-ng-native.a(timer.o)
+                0x00000000000095f0                timer_set
+                0x0000000000009610                timer_reset
+                0x0000000000009640                timer_restart
+                0x0000000000009650                timer_expired
+                0x0000000000009670                timer_remaining
+ *fill*         0x0000000000009685        0xb 
+ .text          0x0000000000009690      0x343 build/native/contiki-ng-native.a(list.o)
+                0x0000000000009690                list_init
+                0x00000000000096a0                list_head
+                0x00000000000096b0                list_copy
+                0x00000000000096c0                list_tail
+                0x00000000000096e0                list_add
+                0x0000000000009760                list_push
+                0x00000000000097d0                list_chop
+                0x0000000000009810                list_pop
+                0x0000000000009820                list_remove
+                0x0000000000009890                list_length
+                0x00000000000098c0                list_insert
+                0x0000000000009980                list_item_next
+                0x00000000000099a0                list_contains
+ *fill*         0x00000000000099d3        0xd 
+ .text          0x00000000000099e0      0x202 build/native/contiki-ng-native.a(queuebuf.o)
+                0x00000000000099e0                queuebuf_init
+                0x0000000000009a00                queuebuf_numfree
+                0x0000000000009a10                queuebuf_new_from_packetbuf
+                0x0000000000009a90                queuebuf_update_attr_from_packetbuf
+                0x0000000000009ab0                queuebuf_update_from_packetbuf
+                0x0000000000009ae0                queuebuf_free
+                0x0000000000009b20                queuebuf_to_packetbuf
+                0x0000000000009b70                queuebuf_dataptr
+                0x0000000000009ba0                queuebuf_datalen
+                0x0000000000009bb0                queuebuf_addr
+                0x0000000000009bd0                queuebuf_attr
+                0x0000000000009be0                queuebuf_debug_print
+ *fill*         0x0000000000009be2        0xe 
+ .text          0x0000000000009bf0      0x3e3 build/native/contiki-ng-native.a(packetbuf.o)
+                0x0000000000009bf0                packetbuf_copyto
+                0x0000000000009cd0                packetbuf_hdralloc
+                0x0000000000009d40                packetbuf_hdrreduce
+                0x0000000000009d70                packetbuf_set_datalen
+                0x0000000000009d80                packetbuf_dataptr
+                0x0000000000009da0                packetbuf_hdrptr
+                0x0000000000009db0                packetbuf_datalen
+                0x0000000000009dc0                packetbuf_hdrlen
+                0x0000000000009dd0                packetbuf_totlen
+                0x0000000000009df0                packetbuf_remaininglen
+                0x0000000000009e10                packetbuf_attr_clear
+                0x0000000000009e60                packetbuf_clear
+                0x0000000000009e80                packetbuf_copyfrom
+                0x0000000000009ee0                packetbuf_attr_copyto
+                0x0000000000009f10                packetbuf_attr_copyfrom
+                0x0000000000009f40                packetbuf_set_attr
+                0x0000000000009f60                packetbuf_attr
+                0x0000000000009f70                packetbuf_set_addr
+                0x0000000000009fa0                packetbuf_addr
+                0x0000000000009fc0                packetbuf_holds_broadcast
+ *fill*         0x0000000000009fd3        0xd 
+ .text          0x0000000000009fe0       0xba build/native/contiki-ng-native.a(netstack.o)
+                0x0000000000009fe0                netstack_process_ip_callback
+                0x000000000000a050                netstack_ip_packet_processor_add
+                0x000000000000a070                uip_ds6_ip_packet_processor_rm
+                0x000000000000a080                netstack_init
+ *fill*         0x000000000000a09a        0x6 
+ .text          0x000000000000a0a0       0x2b build/native/contiki-ng-native.a(linkaddr.o)
+                0x000000000000a0a0                linkaddr_copy
+                0x000000000000a0b0                linkaddr_cmp
+                0x000000000000a0c0                linkaddr_set_node_addr
+ *fill*         0x000000000000a0cb        0x5 
+ .text          0x000000000000a0d0       0x52 build/native/contiki-ng-native.a(nullmac.o)
+ *fill*         0x000000000000a122        0xe 
+ .text          0x000000000000a130      0xb04 build/native/contiki-ng-native.a(uip-ds6.o)
+                0x000000000000a1f0                uip_ds6_default_prefix
+                0x000000000000a200                uip_ds6_set_default_prefix
+                0x000000000000a210                uip_ds6_list_loop
+                0x000000000000a250                uip_ds6_prefix_add
+                0x000000000000a300                uip_ds6_prefix_rm
+                0x000000000000a310                uip_ds6_prefix_lookup
+                0x000000000000a370                uip_ds6_is_addr_onlink
+                0x000000000000a3e0                uip_ds6_addr_lookup
+                0x000000000000a440                uip_ds6_get_link_local
+                0x000000000000a4b0                uip_ds6_get_global
+                0x000000000000a520                uip_ds6_maddr_add
+                0x000000000000a580                uip_ds6_addr_add
+                0x000000000000a670                uip_ds6_maddr_rm
+                0x000000000000a680                uip_ds6_maddr_lookup
+                0x000000000000a740                uip_ds6_addr_rm
+                0x000000000000a760                uip_ds6_periodic
+                0x000000000000a7e0                uip_ds6_aaddr_add
+                0x000000000000a840                uip_ds6_aaddr_rm
+                0x000000000000a850                uip_ds6_aaddr_lookup
+                0x000000000000a8b0                uip_ds6_select_src
+                0x000000000000a9f0                uip_ds6_set_addr_iid
+                0x000000000000aa00                uip_ds6_set_lladdr_from_iid
+                0x000000000000aa10                get_match_length
+                0x000000000000aa60                uip_ds6_compute_reachable_time
+                0x000000000000aaa0                uip_ds6_init
+ *fill*         0x000000000000ac34        0xc 
+ .text          0x000000000000ac40      0x2ea build/native/contiki-ng-native.a(uip-ds6-route.o)
+                0x000000000000ac40                uip_ds6_route_init
+                0x000000000000ac60                uip_ds6_route_nexthop
+                0x000000000000ac70                uip_ds6_route_head
+                0x000000000000ac80                uip_ds6_route_next
+                0x000000000000ac90                uip_ds6_route_is_nexthop
+                0x000000000000aca0                uip_ds6_route_num_routes
+                0x000000000000acb0                uip_ds6_route_lookup
+                0x000000000000acc0                uip_ds6_route_add
+                0x000000000000acd0                uip_ds6_route_rm
+                0x000000000000ace0                uip_ds6_route_rm_by_nexthop
+                0x000000000000acf0                uip_ds6_defrt_head
+                0x000000000000ad00                uip_ds6_defrt_rm
+                0x000000000000ad60                uip_ds6_defrt_lookup
+                0x000000000000adb0                uip_ds6_defrt_add
+                0x000000000000ae60                uip_ds6_defrt_choose
+                0x000000000000aec0                uip_ds6_defrt_periodic
+ *fill*         0x000000000000af2a        0x6 
+ .text          0x000000000000af30      0x2e2 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+                0x000000000000af60                uip_ds6_nbr_rm
+                0x000000000000af80                uip_ds6_neighbors_init
+                0x000000000000afa0                uip_ds6_nbr_add
+                0x000000000000aff0                uip_ds6_nbr_update_ll
+                0x000000000000b0c0                uip_ds6_nbr_get_ipaddr
+                0x000000000000b0d0                uip_ds6_nbr_get_ll
+                0x000000000000b0e0                uip_ds6_nbr_num
+                0x000000000000b120                uip_ds6_nbr_head
+                0x000000000000b130                uip_ds6_nbr_next
+                0x000000000000b140                uip_ds6_nbr_lookup
+                0x000000000000b1c0                uip_ds6_nbr_ll_lookup
+                0x000000000000b1d0                uip_ds6_nbr_ipaddr_from_lladdr
+                0x000000000000b1e0                uip_ds6_nbr_lladdr_from_ipaddr
+                0x000000000000b210                uip_ds6_link_callback
+ *fill*         0x000000000000b212        0xe 
+ .text          0x000000000000b220      0x575 build/native/contiki-ng-native.a(tcpip.o)
+                0x000000000000b220                tcpip_output
+                0x000000000000b250                udp_attach
+                0x000000000000b260                udp_new
+                0x000000000000b290                udp_broadcast_new
+                0x000000000000b310                tcpip_input
+                0x000000000000b340                tcpip_ipv6_output
+                0x000000000000b730                tcpip_poll_udp
+                0x000000000000b750                tcpip_uipcall
+ *fill*         0x000000000000b795        0xb 
+ .text          0x000000000000b7a0      0xb6e build/native/contiki-ng-native.a(uip6.o)
+                0x000000000000b8a0                uip_chksum
+                0x000000000000b8c0                uip_icmp6chksum
+                0x000000000000b8d0                uip_udpchksum
+                0x000000000000b8e0                uip_init
+                0x000000000000b960                uip_remove_ext_hdr
+                0x000000000000ba10                uip_udp_new
+                0x000000000000bad0                uip_process
+                0x000000000000c250                uip_htons
+                0x000000000000c260                uip_htonl
+                0x000000000000c280                uip_send
+ *fill*         0x000000000000c30e        0x2 
+ .text          0x000000000000c310      0x45c build/native/contiki-ng-native.a(uip-nd6.o)
+                0x000000000000c760                uip_nd6_init
+ *fill*         0x000000000000c76c        0x4 
+ .text          0x000000000000c770      0x28c build/native/contiki-ng-native.a(simple-udp.o)
+                0x000000000000c870                simple_udp_send
+                0x000000000000c8b0                simple_udp_sendto
+                0x000000000000c8f0                simple_udp_sendto_port
+                0x000000000000c920                simple_udp_register
+ *fill*         0x000000000000c9fc        0x4 
+ .text          0x000000000000ca00      0x4a9 build/native/contiki-ng-native.a(uiplib.o)
+                0x000000000000ca00                uiplib_ip6addrconv
+                0x000000000000cc00                uiplib_ip4addrconv
+                0x000000000000cc80                uiplib_ipaddr_snprint
+                0x000000000000ce50                uiplib_ipaddr_print
+ *fill*         0x000000000000cea9        0x7 
+ .text          0x000000000000ceb0      0x498 build/native/contiki-ng-native.a(rpl.o)
+                0x000000000000ceb0                rpl_has_joined
+                0x000000000000ced0                rpl_is_reachable
+                0x000000000000cf00                rpl_get_leaf_only
+                0x000000000000d040                rpl_link_callback
+                0x000000000000d0a0                rpl_lollipop_greater_than
+                0x000000000000d0f0                rpl_get_global_address
+                0x000000000000d1c0                rpl_reset_prefix
+                0x000000000000d220                rpl_set_prefix_from_addr
+                0x000000000000d300                rpl_set_prefix
+                0x000000000000d340                rpl_set_leaf_only
+ *fill*         0x000000000000d348        0x8 
+ .text          0x000000000000d350      0xcb5 build/native/contiki-ng-native.a(rpl-dag.o)
+                0x000000000000d790                rpl_dag_state_to_str
+                0x000000000000d7d0                rpl_dag_get_root_ipaddr
+                0x000000000000d800                rpl_dag_leave
+                0x000000000000d870                rpl_dag_poison_and_leave
+                0x000000000000d880                rpl_dag_periodic
+                0x000000000000d900                rpl_is_addr_in_our_dag
+                0x000000000000d950                rpl_get_default_instance
+                0x000000000000d970                rpl_get_any_dag
+                0x000000000000d990                rpl_refresh_routes
+                0x000000000000d9c0                rpl_global_repair
+                0x000000000000d9f0                rpl_local_repair
+                0x000000000000da10                rpl_dag_ready_to_advertise
+                0x000000000000da40                rpl_dag_update_state
+                0x000000000000da60                rpl_process_dio
+                0x000000000000dd20                rpl_process_dis
+                0x000000000000dd60                rpl_process_dao
+                0x000000000000dde0                rpl_process_dao_ack
+                0x000000000000de80                rpl_process_hbh
+                0x000000000000dee0                rpl_dag_init_root
+                0x000000000000dff0                rpl_dag_init
+ *fill*         0x000000000000e005        0xb 
+ .text          0x000000000000e010      0x221 build/native/contiki-ng-native.a(rpl-dag-root.o)
+                0x000000000000e090                rpl_dag_root_print_links
+                0x000000000000e130                rpl_dag_root_set_prefix
+                0x000000000000e160                rpl_dag_root_start
+                0x000000000000e210                rpl_dag_root_is_root
+ *fill*         0x000000000000e231        0xf 
+ .text          0x000000000000e240      0x44d build/native/contiki-ng-native.a(platform.o)
+                0x000000000000e2b0                select_set_callback
+                0x000000000000e340                native_uart_set_input
+                0x000000000000e350                platform_process_args
+                0x000000000000e360                platform_init_stage_one
+                0x000000000000e380                platform_init_stage_two
+                0x000000000000e3e0                platform_init_stage_three
+                0x000000000000e4f0                platform_main_loop
+                0x000000000000e650                log_message
+                0x000000000000e670                uip_log
+ *fill*         0x000000000000e68d        0x3 
+ .text          0x000000000000e690       0xc2 build/native/contiki-ng-native.a(clock.o)
+                0x000000000000e690                clock_time
+                0x000000000000e700                clock_seconds
+                0x000000000000e740                clock_delay
+                0x000000000000e750                clock_init
+ *fill*         0x000000000000e752        0xe 
+ .text          0x000000000000e760      0x51f build/native/contiki-ng-native.a(tun6-net.o)
+ *fill*         0x000000000000ec7f        0x1 
+ .text          0x000000000000ec80       0xbe build/native/contiki-ng-native.a(rtimer-arch.o)
+                0x000000000000eca0                rtimer_arch_init
+                0x000000000000ecc0                rtimer_arch_schedule
+ *fill*         0x000000000000ed3e        0x2 
+ .text          0x000000000000ed40       0x4e build/native/contiki-ng-native.a(watchdog.o)
+                0x000000000000ed40                watchdog_init
+                0x000000000000ed50                watchdog_start
+                0x000000000000ed60                watchdog_periodic
+                0x000000000000ed70                watchdog_stop
+                0x000000000000ed80                watchdog_reboot
+ *fill*         0x000000000000ed8e        0x2 
+ .text          0x000000000000ed90       0xbe build/native/contiki-ng-native.a(stimer.o)
+                0x000000000000ed90                stimer_set
+                0x000000000000edb0                stimer_reset
+                0x000000000000ede0                stimer_restart
+                0x000000000000edf0                stimer_expired
+                0x000000000000ee20                stimer_remaining
+                0x000000000000ee40                stimer_elapsed
+ *fill*         0x000000000000ee4e        0x2 
+ .text          0x000000000000ee50      0x15b build/native/contiki-ng-native.a(memb.o)
+                0x000000000000ee50                memb_init
+                0x000000000000ee80                memb_alloc
+                0x000000000000eee0                memb_free
+                0x000000000000ef40                memb_inmemb
+                0x000000000000ef70                memb_numfree
+ *fill*         0x000000000000efab        0x5 
+ .text          0x000000000000efb0       0x1e build/native/contiki-ng-native.a(random.o)
+                0x000000000000efb0                random_init
+                0x000000000000efc0                random_rand
+ *fill*         0x000000000000efce        0x2 
+ .text          0x000000000000efd0      0x378 build/native/contiki-ng-native.a(button-hal.o)
+                0x000000000000f120                button_hal_get_by_id
+                0x000000000000f160                button_hal_get_by_index
+                0x000000000000f190                button_hal_get_state
+                0x000000000000f270                button_hal_init
+ *fill*         0x000000000000f348        0x8 
+ .text          0x000000000000f350      0x1be build/native/contiki-ng-native.a(serial-line.o)
+                0x000000000000f470                serial_line_input_byte
+                0x000000000000f4e0                serial_line_init
+ *fill*         0x000000000000f50e        0x2 
+ .text          0x000000000000f510       0x83 build/native/contiki-ng-native.a(leds.o)
+                0x000000000000f510                leds_init
+                0x000000000000f520                leds_single_on
+                0x000000000000f530                leds_single_off
+                0x000000000000f540                leds_single_toggle
+                0x000000000000f550                leds_on
+                0x000000000000f560                leds_off
+                0x000000000000f570                leds_toggle
+                0x000000000000f580                leds_set
+                0x000000000000f590                leds_get
+ *fill*         0x000000000000f593        0xd 
+ .text          0x000000000000f5a0       0xf3 build/native/contiki-ng-native.a(nullradio.o)
+ *fill*         0x000000000000f693        0xd 
+ .text          0x000000000000f6a0      0x104 build/native/contiki-ng-native.a(gpio-hal.o)
+                0x000000000000f6a0                gpio_hal_register_handler
+                0x000000000000f6b0                gpio_hal_event_handler
+                0x000000000000f700                gpio_hal_init
+                0x000000000000f720                gpio_hal_arch_port_toggle_pin
+                0x000000000000f740                gpio_hal_arch_port_toggle_pins
+                0x000000000000f760                gpio_hal_arch_no_port_toggle_pin
+                0x000000000000f790                gpio_hal_arch_no_port_toggle_pins
+ *fill*         0x000000000000f7a4        0xc 
+ .text          0x000000000000f7b0      0x6e3 build/native/contiki-ng-native.a(nbr-table.o)
+                0x000000000000f830                nbr_table_register
+                0x000000000000f890                nbr_table_is_registered
+                0x000000000000f8c0                nbr_table_next
+                0x000000000000f960                nbr_table_head
+                0x000000000000f9e0                nbr_table_add_lladdr
+                0x000000000000fcf0                nbr_table_get_from_lladdr
+                0x000000000000fd50                nbr_table_remove
+                0x000000000000fdd0                nbr_table_lock
+                0x000000000000fe10                nbr_table_unlock
+                0x000000000000fe50                nbr_table_get_lladdr
+ *fill*         0x000000000000fe93        0xd 
+ .text          0x000000000000fea0      0x3a0 build/native/contiki-ng-native.a(link-stats.o)
+                0x000000000000fee0                link_stats_from_lladdr
+                0x000000000000fef0                link_stats_get_lladdr
+                0x000000000000ff00                link_stats_is_fresh
+                0x000000000000ff40                guess_etx_from_rssi
+                0x000000000000ff90                link_stats_packet_sent
+                0x00000000000100f0                link_stats_input_callback
+                0x00000000000101c0                link_stats_reset
+                0x0000000000010210                link_stats_init
+ .text          0x0000000000010240      0x3a1 build/native/contiki-ng-native.a(uipbuf.o)
+                0x0000000000010240                uipbuf_clear
+                0x0000000000010280                uipbuf_add_ext_hdr
+                0x00000000000102d0                uipbuf_set_len
+                0x00000000000102f0                uipbuf_set_len_field
+                0x0000000000010300                uipbuf_get_len_field
+                0x0000000000010310                uipbuf_get_next_header
+                0x00000000000103c0                uipbuf_get_last_header
+                0x0000000000010440                uipbuf_search_header
+                0x0000000000010500                uipbuf_get_attr
+                0x0000000000010520                uipbuf_set_attr
+                0x0000000000010540                uipbuf_set_default_attr
+                0x0000000000010560                uipbuf_clear_attr
+                0x0000000000010580                uipbuf_set_attr_flag
+                0x0000000000010590                uipbuf_clr_attr_flag
+                0x00000000000105a0                uipbuf_is_attr_flag
+                0x00000000000105c0                uipbuf_init
+ *fill*         0x00000000000105e1        0xf 
+ .text          0x00000000000105f0      0x4be build/native/contiki-ng-native.a(uip-icmp6.o)
+                0x0000000000010730                uip_icmp6_input
+                0x00000000000107a0                uip_icmp6_register_input_handler
+                0x00000000000107b0                uip_icmp6_error_output
+                0x0000000000010990                uip_icmp6_send
+                0x0000000000010a40                uip_icmp6_echo_reply_callback_add
+                0x0000000000010a70                uip_icmp6_echo_reply_callback_rm
+                0x0000000000010a80                uip_icmp6_init
+ *fill*         0x0000000000010aae        0x2 
+ .text          0x0000000000010ab0      0x5ab build/native/contiki-ng-native.a(uip-sr.o)
+                0x0000000000010b10                uip_sr_num_nodes
+                0x0000000000010b20                uip_sr_get_node
+                0x0000000000010b90                uip_sr_is_addr_reachable
+                0x0000000000010c40                uip_sr_expire_parent
+                0x0000000000010c90                uip_sr_update_node
+                0x0000000000010da0                uip_sr_init
+                0x0000000000010dd0                uip_sr_node_head
+                0x0000000000010de0                uip_sr_node_next
+                0x0000000000010df0                uip_sr_periodic
+                0x0000000000010ec0                uip_sr_free_all
+                0x0000000000010f20                uip_sr_link_snprint
+ *fill*         0x000000000001105b        0x5 
+ .text          0x0000000000011060      0x121 build/native/contiki-ng-native.a(uip-packetqueue)
+                0x0000000000011080                uip_packetqueue_new
+                0x0000000000011090                uip_packetqueue_alloc
+                0x00000000000110f0                uip_packetqueue_free
+                0x0000000000011130                uip_packetqueue_buf
+                0x0000000000011150                uip_packetqueue_buflen
+                0x0000000000011170                uip_packetqueue_set_buflen
+ *fill*         0x0000000000011181        0xf 
+ .text          0x0000000000011190       0xc3 build/native/contiki-ng-native.a(uip-udp-packet.)
+                0x0000000000011190                uip_udp_packet_send
+                0x00000000000111f0                uip_udp_packet_sendto
+ *fill*         0x0000000000011253        0xd 
+ .text          0x0000000000011260      0xc18 build/native/contiki-ng-native.a(rpl-icmp6.o)
+                0x0000000000011840                rpl_icmp6_update_nbr_table
+                0x0000000000011890                rpl_icmp6_dis_output
+                0x00000000000118d0                rpl_icmp6_dio_output
+                0x0000000000011cf0                rpl_icmp6_dao_output
+                0x0000000000011de0                rpl_icmp6_dao_ack_output
+                0x0000000000011e40                rpl_icmp6_init
+ *fill*         0x0000000000011e78        0x8 
+ .text          0x0000000000011e80      0x8b3 build/native/contiki-ng-native.a(rpl-neighbor.o)
+                0x0000000000011ed0                rpl_neighbor_count
+                0x0000000000011f10                rpl_neighbor_get_from_lladdr
+                0x0000000000011f20                rpl_neighbor_is_acceptable_parent
+                0x0000000000011f50                rpl_neighbor_get_link_metric
+                0x0000000000011f80                rpl_neighbor_rank_via_nbr
+                0x0000000000011fb0                rpl_neighbor_get_lladdr
+                0x0000000000011fc0                rpl_neighbor_get_ipaddr
+                0x0000000000011fe0                rpl_neighbor_get_link_stats
+                0x0000000000012100                rpl_neighbor_snprint
+                0x0000000000012460                rpl_neighbor_print_list
+                0x00000000000124f0                rpl_neighbor_is_fresh
+                0x0000000000012510                rpl_neighbor_is_reachable
+                0x0000000000012560                rpl_neighbor_is_parent
+                0x0000000000012580                rpl_neighbor_set_preferred_parent
+                0x0000000000012600                rpl_neighbor_remove_all
+                0x0000000000012650                rpl_neighbor_get_from_ipaddr
+                0x0000000000012680                rpl_neighbor_select_best
+                0x0000000000012720                rpl_neighbor_init
+ *fill*         0x0000000000012733        0xd 
+ .text          0x0000000000012740      0x927 build/native/contiki-ng-native.a(rpl-timers.o)
+                0x00000000000129f0                rpl_timers_schedule_periodic_dis
+                0x0000000000012b10                rpl_timers_dio_reset
+                0x0000000000012b60                rpl_timers_schedule_unicast_dio
+                0x0000000000012b90                rpl_timers_schedule_dao
+                0x0000000000012bf0                rpl_timers_schedule_dao_ack
+                0x0000000000012c30                rpl_timers_notify_dao_ack
+                0x0000000000012cb0                get_probing_delay
+                0x0000000000012cd0                get_probing_target
+                0x0000000000012e90                rpl_schedule_probing
+                0x0000000000012eb0                rpl_schedule_probing_now
+                0x0000000000012f00                rpl_timers_unschedule_leaving
+                0x0000000000012f40                rpl_timers_schedule_leaving
+                0x0000000000012f90                rpl_timers_init
+                0x0000000000012fc0                rpl_timers_stop_dag_timers
+                0x0000000000013020                rpl_timers_unschedule_state_update
+                0x0000000000013040                rpl_timers_schedule_state_update
+ *fill*         0x0000000000013067        0x9 
+ .text          0x0000000000013070      0xb0e build/native/contiki-ng-native.a(rpl-ext-header.)
+                0x00000000000130e0                rpl_ext_header_srh_get_next_hop
+                0x0000000000013180                rpl_ext_header_srh_update
+                0x00000000000133d0                rpl_ext_header_hbh_update
+                0x0000000000013490                rpl_ext_header_remove
+                0x0000000000013600                rpl_ext_header_update
+ *fill*         0x0000000000013b7e        0x2 
+ .text          0x0000000000013b80      0x12e build/native/contiki-ng-native.a(rpl-nbr-policy.)
+                0x0000000000013c20                rpl_nbr_policy_find_removable
+ *fill*         0x0000000000013cae        0x2 
+ .text          0x0000000000013cb0      0x27d build/native/contiki-ng-native.a(rpl-mrhof.o)
+ .text          0x0000000000013f2d        0x0 build/native/contiki-ng-native.a(buttons.o)
+ *fill*         0x0000000000013f2d        0x3 
+ .text          0x0000000000013f30       0x4c build/native/contiki-ng-native.a(int-master.o)
+                0x0000000000013f30                int_master_enable
+                0x0000000000013f40                int_master_read_and_disable
+                0x0000000000013f60                int_master_status_set
+                0x0000000000013f70                int_master_is_enabled
+ *fill*         0x0000000000013f7c        0x4 
+ .text          0x0000000000013f80      0x1cb build/native/contiki-ng-native.a(gpio-hal-arch.o)
+                0x0000000000013f80                gpio_hal_arch_init
+                0x0000000000013f90                gpio_hal_arch_no_port_interrupt_enable
+                0x0000000000013fa0                gpio_hal_arch_no_port_interrupt_disable
+                0x0000000000013fb0                gpio_hal_arch_no_port_pin_cfg_set
+                0x0000000000013fd0                gpio_hal_arch_no_port_pin_cfg_get
+                0x0000000000013ff0                gpio_hal_arch_no_port_pin_set_input
+                0x0000000000014000                gpio_hal_arch_no_port_pin_set_output
+                0x0000000000014010                gpio_hal_arch_no_port_set_pin
+                0x0000000000014030                gpio_hal_arch_no_port_clear_pin
+                0x0000000000014050                gpio_hal_arch_no_port_read_pin
+                0x0000000000014070                gpio_hal_arch_no_port_write_pin
+                0x0000000000014090                gpio_hal_arch_no_port_set_pins
+                0x00000000000140c0                gpio_hal_arch_no_port_clear_pins
+                0x00000000000140f0                gpio_hal_arch_no_port_read_pins
+                0x0000000000014120                gpio_hal_arch_no_port_write_pins
+ *fill*         0x000000000001414b        0x5 
+ .text          0x0000000000014150       0xb1 build/native/contiki-ng-native.a(ringbuf.o)
+                0x0000000000014150                ringbuf_init
+                0x0000000000014160                ringbuf_put
+                0x00000000000141a0                ringbuf_get
+                0x00000000000141e0                ringbuf_size
+                0x00000000000141f0                ringbuf_elements
+ *fill*         0x0000000000014201        0xf 
+ .text          0x0000000000014210       0x72 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x0000000000014210                __libc_csu_init
+                0x0000000000014280                __libc_csu_fini
+ *fill*         0x0000000000014282        0xe 
+ .text          0x0000000000014290        0xe /usr/lib/x86_64-linux-gnu/libc_nonshared.a(atexit.oS)
+                0x0000000000014290                atexit
+ .text          0x000000000001429e        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .text          0x000000000001429e        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x00000000000142a0        0x9
+ *(SORT_NONE(.fini))
+ .fini          0x00000000000142a0        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+                0x00000000000142a0                _fini
+ .fini          0x00000000000142a4        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x00000000000142b0      0x5a1
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x00000000000142b0        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000142b0                _IO_stdin_used
+ .rodata.str1.1
+                0x00000000000142b4       0x53 sink_node.o
+ .rodata.str1.1
+                0x0000000000014307       0x66 build/native/contiki-ng-native.a(contiki-main.o)
+                                         0x7a (size before relaxing)
+ *fill*         0x000000000001436d        0x3 
+ .rodata.str1.8
+                0x0000000000014370       0x7c build/native/contiki-ng-native.a(contiki-main.o)
+ .rodata.str1.1
+                0x00000000000143ec       0xa5 build/native/contiki-ng-native.a(log.o)
+                                         0xac (size before relaxing)
+ *fill*         0x0000000000014491        0x3 
+ .rodata        0x0000000000014494       0x14 build/native/contiki-ng-native.a(log.o)
+ .rodata.str1.1
+                0x00000000000144a8        0xc build/native/contiki-ng-native.a(etimer.o)
+ .rodata.str1.1
+                0x00000000000144b4        0xf build/native/contiki-ng-native.a(ctimer.o)
+ *fill*         0x00000000000144c3        0x5 
+ .rodata        0x00000000000144c8        0x8 build/native/contiki-ng-native.a(linkaddr.o)
+                0x00000000000144c8                linkaddr_null
+ .rodata.str1.1
+                0x00000000000144d0        0x8 build/native/contiki-ng-native.a(nullmac.o)
+ .rodata.str1.1
+                0x00000000000144d8        0xd build/native/contiki-ng-native.a(tcpip.o)
+ .rodata.str1.1
+                0x00000000000144e5       0x13 build/native/contiki-ng-native.a(simple-udp.o)
+ .rodata.str1.1
+                0x00000000000144f8       0x28 build/native/contiki-ng-native.a(uiplib.o)
+                                         0x2d (size before relaxing)
+ .rodata.str1.1
+                0x0000000000014520        0x9 build/native/contiki-ng-native.a(rpl.o)
+ .rodata.str1.1
+                0x0000000000014529       0xb0 build/native/contiki-ng-native.a(rpl-dag.o)
+ .rodata.str1.1
+                0x00000000000145d9       0x2f build/native/contiki-ng-native.a(platform.o)
+                                         0x47 (size before relaxing)
+ .rodata        0x0000000000014608        0x8 build/native/contiki-ng-native.a(platform.o)
+ .rodata.str1.1
+                0x0000000000014610       0xa6 build/native/contiki-ng-native.a(tun6-net.o)
+                                         0xb9 (size before relaxing)
+ *fill*         0x00000000000146b6        0x2 
+ .rodata.str1.8
+                0x00000000000146b8       0xc7 build/native/contiki-ng-native.a(tun6-net.o)
+ .rodata.str1.1
+                0x000000000001477f       0x13 build/native/contiki-ng-native.a(button-hal.o)
+ .rodata.str1.1
+                0x0000000000014792        0xe build/native/contiki-ng-native.a(serial-line.o)
+ .rodata.str1.1
+                0x00000000000147a0       0x44 build/native/contiki-ng-native.a(uip-sr.o)
+ *fill*         0x00000000000147e4        0x4 
+ .rodata.str1.8
+                0x00000000000147e8       0x28 build/native/contiki-ng-native.a(rpl-neighbor.o)
+                                         0x22 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000014810       0x34 build/native/contiki-ng-native.a(rpl-neighbor.o)
+                                         0x36 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000014844        0xc build/native/contiki-ng-native.a(rpl-timers.o)
+ .rodata        0x0000000000014850        0x1 build/native/contiki-ng-native.a(buttons.o)
+                0x0000000000014850                button_hal_button_count
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000014854     0x1014
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000014854     0x1014 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000014854                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000015868     0x3d60
+ *(.eh_frame)
+ .eh_frame      0x0000000000015868       0x30 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x0000000000015898        0x0 
+ .eh_frame      0x0000000000015898       0x40 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .eh_frame      0x00000000000158d8       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000158f0       0x50 sink_node.o
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000015940       0x20 build/native/contiki-ng-native.a(contiki-main.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000015960       0x38 build/native/contiki-ng-native.a(autostart.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000015998      0x170 build/native/contiki-ng-native.a(log.o)
+                                        0x188 (size before relaxing)
+ .eh_frame      0x0000000000015b08       0x40 build/native/contiki-ng-native.a(energest.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000015b48      0x1b0 build/native/contiki-ng-native.a(etimer.o)
+                                        0x1c8 (size before relaxing)
+ .eh_frame      0x0000000000015cf8       0x18 build/native/contiki-ng-native.a(node-id.o)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000015d10      0x118 build/native/contiki-ng-native.a(ctimer.o)
+                                        0x130 (size before relaxing)
+ .eh_frame      0x0000000000015e28       0x50 build/native/contiki-ng-native.a(rtimer.o)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000015e78      0x188 build/native/contiki-ng-native.a(process.o)
+                                        0x1a0 (size before relaxing)
+ .eh_frame      0x0000000000016000       0x90 build/native/contiki-ng-native.a(timer.o)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x0000000000016090      0x108 build/native/contiki-ng-native.a(list.o)
+                                        0x120 (size before relaxing)
+ .eh_frame      0x0000000000016198      0x138 build/native/contiki-ng-native.a(queuebuf.o)
+                                        0x150 (size before relaxing)
+ .eh_frame      0x00000000000162d0      0x1c0 build/native/contiki-ng-native.a(packetbuf.o)
+                                        0x1d8 (size before relaxing)
+ .eh_frame      0x0000000000016490       0x78 build/native/contiki-ng-native.a(netstack.o)
+                                         0x90 (size before relaxing)
+ .eh_frame      0x0000000000016508       0x40 build/native/contiki-ng-native.a(linkaddr.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000016548       0x78 build/native/contiki-ng-native.a(nullmac.o)
+                                         0x90 (size before relaxing)
+ .eh_frame      0x00000000000165c0      0x3b8 build/native/contiki-ng-native.a(uip-ds6.o)
+                                        0x3d0 (size before relaxing)
+ .eh_frame      0x0000000000016978      0x1b0 build/native/contiki-ng-native.a(uip-ds6-route.o)
+                                        0x1c8 (size before relaxing)
+ .eh_frame      0x0000000000016b28      0x1b8 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+                                        0x1d0 (size before relaxing)
+ .eh_frame      0x0000000000016ce0      0x138 build/native/contiki-ng-native.a(tcpip.o)
+                                        0x150 (size before relaxing)
+ .eh_frame      0x0000000000016e18      0x198 build/native/contiki-ng-native.a(uip6.o)
+                                        0x1b0 (size before relaxing)
+ .eh_frame      0x0000000000016fb0       0x60 build/native/contiki-ng-native.a(uip-nd6.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000017010       0xf0 build/native/contiki-ng-native.a(simple-udp.o)
+                                        0x108 (size before relaxing)
+ .eh_frame      0x0000000000017100       0xc8 build/native/contiki-ng-native.a(uiplib.o)
+                                         0xe0 (size before relaxing)
+ .eh_frame      0x00000000000171c8      0x1b0 build/native/contiki-ng-native.a(rpl.o)
+                                        0x1c8 (size before relaxing)
+ .eh_frame      0x0000000000017378      0x348 build/native/contiki-ng-native.a(rpl-dag.o)
+                                        0x360 (size before relaxing)
+ .eh_frame      0x00000000000176c0       0xa8 build/native/contiki-ng-native.a(rpl-dag-root.o)
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x0000000000017768      0x128 build/native/contiki-ng-native.a(platform.o)
+                                        0x140 (size before relaxing)
+ .eh_frame      0x0000000000017890       0x60 build/native/contiki-ng-native.a(clock.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x00000000000178f0      0x100 build/native/contiki-ng-native.a(tun6-net.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x00000000000179f0       0x50 build/native/contiki-ng-native.a(rtimer-arch.o)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000017a40       0x68 build/native/contiki-ng-native.a(watchdog.o)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000000017aa8       0xa8 build/native/contiki-ng-native.a(stimer.o)
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x0000000000017b50       0x70 build/native/contiki-ng-native.a(memb.o)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x0000000000017bc0       0x30 build/native/contiki-ng-native.a(random.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000017bf0      0x138 build/native/contiki-ng-native.a(button-hal.o)
+                                        0x150 (size before relaxing)
+ .eh_frame      0x0000000000017d28       0x80 build/native/contiki-ng-native.a(serial-line.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000017da8       0xb8 build/native/contiki-ng-native.a(leds.o)
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x0000000000017e60      0x118 build/native/contiki-ng-native.a(nullradio.o)
+                                        0x130 (size before relaxing)
+ .eh_frame      0x0000000000017f78       0xc8 build/native/contiki-ng-native.a(gpio-hal.o)
+                                         0xe0 (size before relaxing)
+ .eh_frame      0x0000000000018040      0x180 build/native/contiki-ng-native.a(nbr-table.o)
+                                        0x198 (size before relaxing)
+ .eh_frame      0x00000000000181c0      0x130 build/native/contiki-ng-native.a(link-stats.o)
+                                        0x148 (size before relaxing)
+ .eh_frame      0x00000000000182f0      0x150 build/native/contiki-ng-native.a(uipbuf.o)
+                                        0x168 (size before relaxing)
+ .eh_frame      0x0000000000018440      0x188 build/native/contiki-ng-native.a(uip-icmp6.o)
+                                        0x1a0 (size before relaxing)
+ .eh_frame      0x00000000000185c8      0x210 build/native/contiki-ng-native.a(uip-sr.o)
+                                        0x228 (size before relaxing)
+ .eh_frame      0x00000000000187d8       0xb8 build/native/contiki-ng-native.a(uip-packetqueue)
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x0000000000018890       0x48 build/native/contiki-ng-native.a(uip-udp-packet.)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x00000000000188d8      0x1f0 build/native/contiki-ng-native.a(rpl-icmp6.o)
+                                        0x208 (size before relaxing)
+ .eh_frame      0x0000000000018ac8      0x288 build/native/contiki-ng-native.a(rpl-neighbor.o)
+                                        0x2a0 (size before relaxing)
+ .eh_frame      0x0000000000018d50      0x338 build/native/contiki-ng-native.a(rpl-timers.o)
+                                        0x350 (size before relaxing)
+ .eh_frame      0x0000000000019088      0x140 build/native/contiki-ng-native.a(rpl-ext-header.)
+                                        0x158 (size before relaxing)
+ .eh_frame      0x00000000000191c8       0x50 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000019218      0x150 build/native/contiki-ng-native.a(rpl-mrhof.o)
+                                        0x168 (size before relaxing)
+ .eh_frame      0x0000000000019368       0x50 build/native/contiki-ng-native.a(int-master.o)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x00000000000193b8      0x130 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+                                        0x148 (size before relaxing)
+ .eh_frame      0x00000000000194e8       0x68 build/native/contiki-ng-native.a(ringbuf.o)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000000019550       0x60 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x00000000000195b0       0x14 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(atexit.oS)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000195c4        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000219a90                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000219a90        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000219a90        0x8
+                0x0000000000219a90                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000219a90        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                0x0000000000219a98                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000219a98        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000219a98        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000219aa0      0x1e8
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000219aa0       0x10 sink_node.o
+                0x0000000000219aa0                autostart_processes
+ *fill*         0x0000000000219ab0       0x10 
+ .data.rel.ro.local
+                0x0000000000219ac0       0x38 build/native/contiki-ng-native.a(nullmac.o)
+                0x0000000000219ac0                nullmac_driver
+ *fill*         0x0000000000219af8        0x8 
+ .data.rel.ro.local
+                0x0000000000219b00       0x10 build/native/contiki-ng-native.a(platform.o)
+ *fill*         0x0000000000219b10       0x10 
+ .data.rel.ro.local
+                0x0000000000219b20       0x30 build/native/contiki-ng-native.a(tun6-net.o)
+                0x0000000000219b20                tun6_net_driver
+ *fill*         0x0000000000219b50       0x10 
+ .data.rel.ro.local
+                0x0000000000219b60       0x70 build/native/contiki-ng-native.a(nullradio.o)
+                0x0000000000219b60                nullradio_driver
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000219bd0        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *fill*         0x0000000000219bd0       0x10 
+ .data.rel.ro   0x0000000000219be0       0xa8 build/native/contiki-ng-native.a(rpl.o)
+                0x0000000000219be0                rpl_lite_driver
+
+.dynamic        0x0000000000219c88      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000219c88      0x200 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000219c88                _DYNAMIC
+
+.got            0x0000000000219e88      0x168
+ *(.got.plt)
+ .got.plt       0x0000000000219e88      0x140 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000219e88                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000219fc8       0x28 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x000000000021a000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x000000000021a000      0x528
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000021a000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000021a000                data_start
+                0x000000000021a000                __data_start
+ .data          0x000000000021a004        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .data          0x000000000021a004        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ *fill*         0x000000000021a004        0x4 
+ .data.rel.local
+                0x000000000021a008        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                0x000000000021a008                __dso_handle
+ .data          0x000000000021a010        0x0 sink_node.o
+ *fill*         0x000000000021a010       0x10 
+ .data.rel.local
+                0x000000000021a020       0x20 sink_node.o
+                0x000000000021a020                udp_server_process
+ .data          0x000000000021a040        0x0 build/native/contiki-ng-native.a(contiki-main.o)
+ .data          0x000000000021a040        0x0 build/native/contiki-ng-native.a(autostart.o)
+ .data          0x000000000021a040        0x4 build/native/contiki-ng-native.a(log.o)
+                0x000000000021a040                curr_log_level_main
+ *fill*         0x000000000021a044       0x1c 
+ .data.rel.local
+                0x000000000021a060      0x138 build/native/contiki-ng-native.a(log.o)
+                0x000000000021a060                all_modules
+ .data          0x000000000021a198        0x0 build/native/contiki-ng-native.a(energest.o)
+ .data          0x000000000021a198        0x0 build/native/contiki-ng-native.a(etimer.o)
+ *fill*         0x000000000021a198        0x8 
+ .data.rel.local
+                0x000000000021a1a0       0x20 build/native/contiki-ng-native.a(etimer.o)
+                0x000000000021a1a0                etimer_process
+ .data          0x000000000021a1c0        0x0 build/native/contiki-ng-native.a(node-id.o)
+ .data          0x000000000021a1c0        0x0 build/native/contiki-ng-native.a(ctimer.o)
+ .data.rel.local
+                0x000000000021a1c0       0x20 build/native/contiki-ng-native.a(ctimer.o)
+                0x000000000021a1c0                ctimer_process
+ .data          0x000000000021a1e0        0x0 build/native/contiki-ng-native.a(rtimer.o)
+ .data          0x000000000021a1e0        0x0 build/native/contiki-ng-native.a(process.o)
+ .data          0x000000000021a1e0        0x0 build/native/contiki-ng-native.a(timer.o)
+ .data          0x000000000021a1e0        0x0 build/native/contiki-ng-native.a(list.o)
+ .data          0x000000000021a1e0        0x0 build/native/contiki-ng-native.a(queuebuf.o)
+ .data.rel.local
+                0x000000000021a1e0       0x38 build/native/contiki-ng-native.a(queuebuf.o)
+ .data          0x000000000021a218        0x0 build/native/contiki-ng-native.a(packetbuf.o)
+ .data          0x000000000021a218        0x0 build/native/contiki-ng-native.a(netstack.o)
+ .data          0x000000000021a218        0x0 build/native/contiki-ng-native.a(linkaddr.o)
+ .data          0x000000000021a218        0x0 build/native/contiki-ng-native.a(nullmac.o)
+ .data          0x000000000021a218        0x0 build/native/contiki-ng-native.a(uip-ds6.o)
+ .data          0x000000000021a218        0x0 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ *fill*         0x000000000021a218        0x8 
+ .data.rel.local
+                0x000000000021a220       0x18 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .data          0x000000000021a238        0x0 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ *fill*         0x000000000021a238        0x8 
+ .data.rel.local
+                0x000000000021a240       0x18 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .data          0x000000000021a258        0x0 build/native/contiki-ng-native.a(tcpip.o)
+ *fill*         0x000000000021a258        0x8 
+ .data.rel.local
+                0x000000000021a260       0x20 build/native/contiki-ng-native.a(tcpip.o)
+                0x000000000021a260                tcpip_process
+ .data          0x000000000021a280        0x0 build/native/contiki-ng-native.a(uip6.o)
+ .data          0x000000000021a280        0x0 build/native/contiki-ng-native.a(uip-nd6.o)
+ .data.rel.local
+                0x000000000021a280       0x18 build/native/contiki-ng-native.a(uip-nd6.o)
+ .data          0x000000000021a298        0x0 build/native/contiki-ng-native.a(simple-udp.o)
+ *fill*         0x000000000021a298        0x8 
+ .data.rel.local
+                0x000000000021a2a0       0x20 build/native/contiki-ng-native.a(simple-udp.o)
+                0x000000000021a2a0                simple_udp_process
+ .data          0x000000000021a2c0        0x0 build/native/contiki-ng-native.a(uiplib.o)
+ .data          0x000000000021a2c0        0x0 build/native/contiki-ng-native.a(rpl.o)
+ .data          0x000000000021a2c0        0x0 build/native/contiki-ng-native.a(rpl-dag.o)
+ .data          0x000000000021a2c0        0x0 build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .data          0x000000000021a2c0        0x0 build/native/contiki-ng-native.a(platform.o)
+ .data          0x000000000021a2c0        0x0 build/native/contiki-ng-native.a(clock.o)
+ .data          0x000000000021a2c0       0x60 build/native/contiki-ng-native.a(tun6-net.o)
+ .data          0x000000000021a320        0x0 build/native/contiki-ng-native.a(rtimer-arch.o)
+ .data          0x000000000021a320        0x0 build/native/contiki-ng-native.a(watchdog.o)
+ .data          0x000000000021a320        0x0 build/native/contiki-ng-native.a(stimer.o)
+ .data          0x000000000021a320        0x0 build/native/contiki-ng-native.a(memb.o)
+ .data          0x000000000021a320        0x0 build/native/contiki-ng-native.a(random.o)
+ .data          0x000000000021a320        0x0 build/native/contiki-ng-native.a(button-hal.o)
+ .data.rel.local
+                0x000000000021a320       0x20 build/native/contiki-ng-native.a(button-hal.o)
+                0x000000000021a320                button_hal_process
+ .data          0x000000000021a340        0x0 build/native/contiki-ng-native.a(serial-line.o)
+ .data.rel.local
+                0x000000000021a340       0x20 build/native/contiki-ng-native.a(serial-line.o)
+                0x000000000021a340                serial_line_process
+ .data          0x000000000021a360        0x0 build/native/contiki-ng-native.a(leds.o)
+ .data          0x000000000021a360        0x0 build/native/contiki-ng-native.a(nullradio.o)
+ .data          0x000000000021a360        0x0 build/native/contiki-ng-native.a(gpio-hal.o)
+ .data          0x000000000021a360        0x0 build/native/contiki-ng-native.a(nbr-table.o)
+ .data.rel.local
+                0x000000000021a360       0x18 build/native/contiki-ng-native.a(nbr-table.o)
+ .data          0x000000000021a378        0x0 build/native/contiki-ng-native.a(link-stats.o)
+ *fill*         0x000000000021a378        0x8 
+ .data.rel.local
+                0x000000000021a380       0x18 build/native/contiki-ng-native.a(link-stats.o)
+ .data          0x000000000021a398        0x0 build/native/contiki-ng-native.a(uipbuf.o)
+ .data          0x000000000021a398        0x0 build/native/contiki-ng-native.a(uip-icmp6.o)
+ *fill*         0x000000000021a398        0x8 
+ .data.rel.local
+                0x000000000021a3a0       0x38 build/native/contiki-ng-native.a(uip-icmp6.o)
+ .data          0x000000000021a3d8        0x0 build/native/contiki-ng-native.a(uip-sr.o)
+ *fill*         0x000000000021a3d8        0x8 
+ .data.rel.local
+                0x000000000021a3e0       0x18 build/native/contiki-ng-native.a(uip-sr.o)
+ .data          0x000000000021a3f8        0x0 build/native/contiki-ng-native.a(uip-packetqueue)
+ *fill*         0x000000000021a3f8        0x8 
+ .data.rel.local
+                0x000000000021a400       0x18 build/native/contiki-ng-native.a(uip-packetqueue)
+ .data          0x000000000021a418        0x0 build/native/contiki-ng-native.a(uip-udp-packet.)
+ .data          0x000000000021a418        0x0 build/native/contiki-ng-native.a(rpl-icmp6.o)
+ *fill*         0x000000000021a418        0x8 
+ .data.rel.local
+                0x000000000021a420       0x78 build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .data          0x000000000021a498        0x0 build/native/contiki-ng-native.a(rpl-neighbor.o)
+ *fill*         0x000000000021a498        0x8 
+ .data.rel.local
+                0x000000000021a4a0       0x28 build/native/contiki-ng-native.a(rpl-neighbor.o)
+                0x000000000021a4a0                rpl_neighbors
+ .data          0x000000000021a4c8        0x0 build/native/contiki-ng-native.a(rpl-timers.o)
+ .data          0x000000000021a4c8        0x0 build/native/contiki-ng-native.a(rpl-ext-header.)
+ .data          0x000000000021a4c8        0x0 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .data          0x000000000021a4c8        0x0 build/native/contiki-ng-native.a(rpl-mrhof.o)
+ *fill*         0x000000000021a4c8       0x18 
+ .data.rel.local
+                0x000000000021a4e0       0x48 build/native/contiki-ng-native.a(rpl-mrhof.o)
+                0x000000000021a4e0                rpl_mrhof
+ .data          0x000000000021a528        0x0 build/native/contiki-ng-native.a(buttons.o)
+ .data          0x000000000021a528        0x0 build/native/contiki-ng-native.a(int-master.o)
+ .data          0x000000000021a528        0x0 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .data          0x000000000021a528        0x0 build/native/contiki-ng-native.a(ringbuf.o)
+ .data          0x000000000021a528        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .data          0x000000000021a528        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(atexit.oS)
+ .data          0x000000000021a528        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .data          0x000000000021a528        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x000000000021a528        0x0
+ .tm_clone_table
+                0x000000000021a528        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .tm_clone_table
+                0x000000000021a528        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+
+.data1
+ *(.data1)
+                0x000000000021a528                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000021a528                . = .
+                0x000000000021a528                __bss_start = .
+
+.bss            0x000000000021a540     0xe580
+ *(.dynbss)
+ .dynbss        0x000000000021a540       0x28 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000021a540                stdout@@GLIBC_2.2.5
+                0x000000000021a560                stderr@@GLIBC_2.2.5
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000021a568        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x000000000021a568        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .bss           0x000000000021a568        0x1 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ *fill*         0x000000000021a569       0x17 
+ .bss           0x000000000021a580       0x58 sink_node.o
+ .bss           0x000000000021a5d8        0x0 build/native/contiki-ng-native.a(contiki-main.o)
+ .bss           0x000000000021a5d8        0x0 build/native/contiki-ng-native.a(autostart.o)
+ .bss           0x000000000021a5d8       0x2c build/native/contiki-ng-native.a(log.o)
+                0x000000000021a5d8                curr_log_level_lwm2m
+                0x000000000021a5dc                curr_log_level_snmp
+                0x000000000021a5e0                curr_log_level_coap
+                0x000000000021a5e4                curr_log_level_6top
+                0x000000000021a5e8                curr_log_level_framer
+                0x000000000021a5ec                curr_log_level_mac
+                0x000000000021a5f0                curr_log_level_nullnet
+                0x000000000021a5f4                curr_log_level_6lowpan
+                0x000000000021a5f8                curr_log_level_ipv6
+                0x000000000021a5fc                curr_log_level_tcpip
+                0x000000000021a600                curr_log_level_rpl
+ .bss           0x000000000021a604        0x0 build/native/contiki-ng-native.a(energest.o)
+ *fill*         0x000000000021a604        0x4 
+ .bss           0x000000000021a608       0x10 build/native/contiki-ng-native.a(etimer.o)
+ .bss           0x000000000021a618        0x2 build/native/contiki-ng-native.a(node-id.o)
+                0x000000000021a618                node_id
+ *fill*         0x000000000021a61a        0x6 
+ .bss           0x000000000021a620       0x10 build/native/contiki-ng-native.a(ctimer.o)
+ .bss           0x000000000021a630        0x8 build/native/contiki-ng-native.a(rtimer.o)
+ *fill*         0x000000000021a638        0x8 
+ .bss           0x000000000021a640      0x323 build/native/contiki-ng-native.a(process.o)
+                0x000000000021a640                process_current
+                0x000000000021a648                process_list
+ .bss           0x000000000021a963        0x0 build/native/contiki-ng-native.a(timer.o)
+ .bss           0x000000000021a963        0x0 build/native/contiki-ng-native.a(list.o)
+ *fill*         0x000000000021a963       0x1d 
+ .bss           0x000000000021a980     0x2d80 build/native/contiki-ng-native.a(queuebuf.o)
+ .bss           0x000000000021d700       0x86 build/native/contiki-ng-native.a(packetbuf.o)
+ *fill*         0x000000000021d786        0x2 
+ .bss           0x000000000021d788        0x8 build/native/contiki-ng-native.a(netstack.o)
+ .bss           0x000000000021d790        0x0 build/native/contiki-ng-native.a(linkaddr.o)
+ .bss           0x000000000021d790        0x0 build/native/contiki-ng-native.a(nullmac.o)
+ .bss           0x000000000021d790       0x40 build/native/contiki-ng-native.a(uip-ds6.o)
+ *fill*         0x000000000021d7d0       0x10 
+ .bss           0x000000000021d7e0       0x70 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ *fill*         0x000000000021d850       0x10 
+ .bss           0x000000000021d860     0x2580 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .bss           0x000000000021fde0       0x20 build/native/contiki-ng-native.a(tcpip.o)
+ .bss           0x000000000021fe00        0x8 build/native/contiki-ng-native.a(uip6.o)
+                0x000000000021fe00                uip_last_proto
+                0x000000000021fe02                uip_ext_len
+                0x000000000021fe04                uip_ext_bitmap
+ .bss           0x000000000021fe08       0x19 build/native/contiki-ng-native.a(uip-nd6.o)
+ *fill*         0x000000000021fe21       0x1f 
+ .bss           0x000000000021fe40      0x501 build/native/contiki-ng-native.a(simple-udp.o)
+ .bss           0x0000000000220341        0x0 build/native/contiki-ng-native.a(uiplib.o)
+ .bss           0x0000000000220341        0x1 build/native/contiki-ng-native.a(rpl.o)
+ .bss           0x0000000000220342        0x0 build/native/contiki-ng-native.a(rpl-dag.o)
+ *fill*         0x0000000000220342        0xe 
+ .bss           0x0000000000220350       0x11 build/native/contiki-ng-native.a(rpl-dag-root.o)
+ *fill*         0x0000000000220361       0x1f 
+ .bss           0x0000000000220380       0x60 build/native/contiki-ng-native.a(platform.o)
+                0x0000000000220380                contiki_argc
+ .bss           0x00000000002203e0        0x0 build/native/contiki-ng-native.a(clock.o)
+ .bss           0x00000000002203e0        0x0 build/native/contiki-ng-native.a(tun6-net.o)
+ .bss           0x00000000002203e0        0x0 build/native/contiki-ng-native.a(rtimer-arch.o)
+ .bss           0x00000000002203e0        0x0 build/native/contiki-ng-native.a(watchdog.o)
+ .bss           0x00000000002203e0        0x0 build/native/contiki-ng-native.a(stimer.o)
+ .bss           0x00000000002203e0        0x0 build/native/contiki-ng-native.a(memb.o)
+ .bss           0x00000000002203e0        0x0 build/native/contiki-ng-native.a(random.o)
+ .bss           0x00000000002203e0       0x1c build/native/contiki-ng-native.a(button-hal.o)
+ *fill*         0x00000000002203fc        0x4 
+ .bss           0x0000000000220400      0x150 build/native/contiki-ng-native.a(serial-line.o)
+ .bss           0x0000000000220550        0x0 build/native/contiki-ng-native.a(leds.o)
+ .bss           0x0000000000220550        0x0 build/native/contiki-ng-native.a(nullradio.o)
+ .bss           0x0000000000220550        0x8 build/native/contiki-ng-native.a(gpio-hal.o)
+ *fill*         0x0000000000220558        0x8 
+ .bss           0x0000000000220560     0x16cc build/native/contiki-ng-native.a(nbr-table.o)
+ *fill*         0x0000000000221c2c       0x14 
+ .bss           0x0000000000221c40     0x12c0 build/native/contiki-ng-native.a(link-stats.o)
+ .bss           0x0000000000222f00       0x1c build/native/contiki-ng-native.a(uipbuf.o)
+ *fill*         0x0000000000222f1c        0x4 
+ .bss           0x0000000000222f20       0x20 build/native/contiki-ng-native.a(uip-icmp6.o)
+ .bss           0x0000000000222f40     0x301c build/native/contiki-ng-native.a(uip-sr.o)
+ *fill*         0x0000000000225f5c        0x4 
+ .bss           0x0000000000225f60      0xab2 build/native/contiki-ng-native.a(uip-packetqueue)
+ .bss           0x0000000000226a12        0x0 build/native/contiki-ng-native.a(uip-udp-packet.)
+ .bss           0x0000000000226a12        0x0 build/native/contiki-ng-native.a(rpl-icmp6.o)
+ *fill*         0x0000000000226a12        0xe 
+ .bss           0x0000000000226a20     0x12c0 build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .bss           0x0000000000227ce0       0x80 build/native/contiki-ng-native.a(rpl-timers.o)
+ .bss           0x0000000000227d60        0x0 build/native/contiki-ng-native.a(rpl-ext-header.)
+ .bss           0x0000000000227d60       0x14 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .bss           0x0000000000227d74        0x0 build/native/contiki-ng-native.a(rpl-mrhof.o)
+ *fill*         0x0000000000227d74        0x4 
+ .bss           0x0000000000227d78        0x8 build/native/contiki-ng-native.a(buttons.o)
+                0x0000000000227d78                button_hal_buttons
+ .bss           0x0000000000227d80        0x4 build/native/contiki-ng-native.a(int-master.o)
+ *fill*         0x0000000000227d84       0x1c 
+ .bss           0x0000000000227da0       0xa0 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .bss           0x0000000000227e40        0x0 build/native/contiki-ng-native.a(ringbuf.o)
+ .bss           0x0000000000227e40        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000227e40        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(atexit.oS)
+ .bss           0x0000000000227e40        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .bss           0x0000000000227e40        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+ COMMON         0x0000000000227e40       0xf0 build/native/contiki-ng-native.a(contiki-main.o)
+                0x0000000000227e40                eb_per_time_source
+                0x0000000000227e80                unicast_per_neighbor_rpl_storing
+                0x0000000000227ec0                unicast_per_neighbor_rpl_ns
+                0x0000000000227f00                default_common
+ COMMON         0x0000000000227f30       0x30 build/native/contiki-ng-native.a(packetbuf.o)
+                0x0000000000227f30                packetbuf_attrs
+                0x0000000000227f50                packetbuf_addrs
+ COMMON         0x0000000000227f60        0x8 build/native/contiki-ng-native.a(linkaddr.o)
+                0x0000000000227f60                linkaddr_node_addr
+ *fill*         0x0000000000227f68       0x18 
+ COMMON         0x0000000000227f80      0x1c1 build/native/contiki-ng-native.a(uip-ds6.o)
+                0x0000000000227f80                uip_ds6_prefix_list
+                0x0000000000227fe0                uip_ds6_timer_periodic
+                0x0000000000228000                uip_ds6_netif_addr_list_offset
+                0x0000000000228020                uip_ds6_if
+                0x0000000000228130                uip_ds6_timer_ra
+                0x0000000000228140                uip_ds6_addr_size
+ COMMON         0x0000000000228141        0x1 build/native/contiki-ng-native.a(tcpip.o)
+                0x0000000000228141                tcpip_event
+ *fill*         0x0000000000228142       0x1e 
+ COMMON         0x0000000000228160      0x690 build/native/contiki-ng-native.a(uip6.o)
+                0x0000000000228160                uip_slen
+                0x0000000000228168                uip_lladdr
+                0x0000000000228170                uip_appdata
+                0x0000000000228178                uip_flags
+                0x0000000000228180                uip_aligned_buf
+                0x0000000000228680                uip_len
+                0x0000000000228688                uip_sappdata
+                0x00000000002286a0                uip_udp_conns
+                0x00000000002287e0                uip_udp_conn
+                0x00000000002287e8                uip_conn
+ COMMON         0x00000000002287f0       0x10 build/native/contiki-ng-native.a(rpl.o)
+                0x00000000002287f0                rpl_multicast_addr
+ COMMON         0x0000000000228800      0x260 build/native/contiki-ng-native.a(rpl-dag.o)
+                0x0000000000228800                curr_instance
+ COMMON         0x0000000000228a60        0x8 build/native/contiki-ng-native.a(platform.o)
+                0x0000000000228a60                contiki_argv
+ COMMON         0x0000000000228a68        0x3 build/native/contiki-ng-native.a(button-hal.o)
+                0x0000000000228a68                button_hal_periodic_event
+                0x0000000000228a69                button_hal_press_event
+                0x0000000000228a6a                button_hal_release_event
+ COMMON         0x0000000000228a6b        0x1 build/native/contiki-ng-native.a(serial-line.o)
+                0x0000000000228a6b                serial_line_event_message
+ *fill*         0x0000000000228a6c       0x14 
+ COMMON         0x0000000000228a80       0x40 build/native/contiki-ng-native.a(link-stats.o)
+                0x0000000000228a80                periodic_timer
+                0x0000000000228ac0                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000228ac0                . = ALIGN (0x8)
+                0x0000000000228ac0                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000628ac0        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000628ac0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000628ac0                . = ALIGN (0x8)
+                0x0000000000628ac0                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000628ac0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c sink_node.o
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(contiki-main.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(autostart.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(log.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(energest.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(etimer.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(node-id.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(ctimer.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rtimer.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(process.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(timer.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(list.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(queuebuf.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(packetbuf.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(netstack.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(linkaddr.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(nullmac.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip-ds6.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(tcpip.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip6.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip-nd6.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(simple-udp.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uiplib.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl-dag.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(platform.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(clock.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(tun6-net.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rtimer-arch.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(watchdog.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(stimer.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(memb.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(random.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(button-hal.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(serial-line.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(leds.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(nullradio.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(gpio-hal.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(nbr-table.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(link-stats.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uipbuf.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip-icmp6.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip-sr.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip-packetqueue)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(uip-udp-packet.)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl-timers.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl-ext-header.)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(rpl-mrhof.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(buttons.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(int-master.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .comment       0x000000000000002b       0x2c build/native/contiki-ng-native.a(ringbuf.o)
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xae0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 sink_node.o
+ .debug_aranges
+                0x0000000000000030       0x30 build/native/contiki-ng-native.a(contiki-main.o)
+ .debug_aranges
+                0x0000000000000060       0x30 build/native/contiki-ng-native.a(autostart.o)
+ .debug_aranges
+                0x0000000000000090       0x30 build/native/contiki-ng-native.a(log.o)
+ .debug_aranges
+                0x00000000000000c0       0x30 build/native/contiki-ng-native.a(energest.o)
+ .debug_aranges
+                0x00000000000000f0       0x30 build/native/contiki-ng-native.a(etimer.o)
+ .debug_aranges
+                0x0000000000000120       0x30 build/native/contiki-ng-native.a(node-id.o)
+ .debug_aranges
+                0x0000000000000150       0x30 build/native/contiki-ng-native.a(ctimer.o)
+ .debug_aranges
+                0x0000000000000180       0x30 build/native/contiki-ng-native.a(rtimer.o)
+ .debug_aranges
+                0x00000000000001b0       0x30 build/native/contiki-ng-native.a(process.o)
+ .debug_aranges
+                0x00000000000001e0       0x30 build/native/contiki-ng-native.a(timer.o)
+ .debug_aranges
+                0x0000000000000210       0x30 build/native/contiki-ng-native.a(list.o)
+ .debug_aranges
+                0x0000000000000240       0x30 build/native/contiki-ng-native.a(queuebuf.o)
+ .debug_aranges
+                0x0000000000000270       0x30 build/native/contiki-ng-native.a(packetbuf.o)
+ .debug_aranges
+                0x00000000000002a0       0x30 build/native/contiki-ng-native.a(netstack.o)
+ .debug_aranges
+                0x00000000000002d0       0x30 build/native/contiki-ng-native.a(linkaddr.o)
+ .debug_aranges
+                0x0000000000000300       0x30 build/native/contiki-ng-native.a(nullmac.o)
+ .debug_aranges
+                0x0000000000000330       0x30 build/native/contiki-ng-native.a(uip-ds6.o)
+ .debug_aranges
+                0x0000000000000360       0x30 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .debug_aranges
+                0x0000000000000390       0x30 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .debug_aranges
+                0x00000000000003c0       0x30 build/native/contiki-ng-native.a(tcpip.o)
+ .debug_aranges
+                0x00000000000003f0       0x40 build/native/contiki-ng-native.a(uip6.o)
+ .debug_aranges
+                0x0000000000000430       0x30 build/native/contiki-ng-native.a(uip-nd6.o)
+ .debug_aranges
+                0x0000000000000460       0x30 build/native/contiki-ng-native.a(simple-udp.o)
+ .debug_aranges
+                0x0000000000000490       0x30 build/native/contiki-ng-native.a(uiplib.o)
+ .debug_aranges
+                0x00000000000004c0       0x30 build/native/contiki-ng-native.a(rpl.o)
+ .debug_aranges
+                0x00000000000004f0       0x30 build/native/contiki-ng-native.a(rpl-dag.o)
+ .debug_aranges
+                0x0000000000000520       0x30 build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .debug_aranges
+                0x0000000000000550       0x30 build/native/contiki-ng-native.a(platform.o)
+ .debug_aranges
+                0x0000000000000580       0x30 build/native/contiki-ng-native.a(clock.o)
+ .debug_aranges
+                0x00000000000005b0       0x30 build/native/contiki-ng-native.a(tun6-net.o)
+ .debug_aranges
+                0x00000000000005e0       0x30 build/native/contiki-ng-native.a(rtimer-arch.o)
+ .debug_aranges
+                0x0000000000000610       0x30 build/native/contiki-ng-native.a(watchdog.o)
+ .debug_aranges
+                0x0000000000000640       0x30 build/native/contiki-ng-native.a(stimer.o)
+ .debug_aranges
+                0x0000000000000670       0x30 build/native/contiki-ng-native.a(memb.o)
+ .debug_aranges
+                0x00000000000006a0       0x30 build/native/contiki-ng-native.a(random.o)
+ .debug_aranges
+                0x00000000000006d0       0x30 build/native/contiki-ng-native.a(button-hal.o)
+ .debug_aranges
+                0x0000000000000700       0x30 build/native/contiki-ng-native.a(serial-line.o)
+ .debug_aranges
+                0x0000000000000730       0x30 build/native/contiki-ng-native.a(leds.o)
+ .debug_aranges
+                0x0000000000000760       0x30 build/native/contiki-ng-native.a(nullradio.o)
+ .debug_aranges
+                0x0000000000000790       0x30 build/native/contiki-ng-native.a(gpio-hal.o)
+ .debug_aranges
+                0x00000000000007c0       0x30 build/native/contiki-ng-native.a(nbr-table.o)
+ .debug_aranges
+                0x00000000000007f0       0x30 build/native/contiki-ng-native.a(link-stats.o)
+ .debug_aranges
+                0x0000000000000820       0x30 build/native/contiki-ng-native.a(uipbuf.o)
+ .debug_aranges
+                0x0000000000000850       0x30 build/native/contiki-ng-native.a(uip-icmp6.o)
+ .debug_aranges
+                0x0000000000000880       0x30 build/native/contiki-ng-native.a(uip-sr.o)
+ .debug_aranges
+                0x00000000000008b0       0x30 build/native/contiki-ng-native.a(uip-packetqueue)
+ .debug_aranges
+                0x00000000000008e0       0x30 build/native/contiki-ng-native.a(uip-udp-packet.)
+ .debug_aranges
+                0x0000000000000910       0x30 build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .debug_aranges
+                0x0000000000000940       0x30 build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .debug_aranges
+                0x0000000000000970       0x30 build/native/contiki-ng-native.a(rpl-timers.o)
+ .debug_aranges
+                0x00000000000009a0       0x30 build/native/contiki-ng-native.a(rpl-ext-header.)
+ .debug_aranges
+                0x00000000000009d0       0x30 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .debug_aranges
+                0x0000000000000a00       0x30 build/native/contiki-ng-native.a(rpl-mrhof.o)
+ .debug_aranges
+                0x0000000000000a30       0x20 build/native/contiki-ng-native.a(buttons.o)
+ .debug_aranges
+                0x0000000000000a50       0x30 build/native/contiki-ng-native.a(int-master.o)
+ .debug_aranges
+                0x0000000000000a80       0x30 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .debug_aranges
+                0x0000000000000ab0       0x30 build/native/contiki-ng-native.a(ringbuf.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x3dfba
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x16e3 sink_node.o
+ .debug_info    0x00000000000016e3     0x29dd build/native/contiki-ng-native.a(contiki-main.o)
+ .debug_info    0x00000000000040c0      0x22d build/native/contiki-ng-native.a(autostart.o)
+ .debug_info    0x00000000000042ed     0x1075 build/native/contiki-ng-native.a(log.o)
+ .debug_info    0x0000000000005362      0x1d4 build/native/contiki-ng-native.a(energest.o)
+ .debug_info    0x0000000000005536      0x8fb build/native/contiki-ng-native.a(etimer.o)
+ .debug_info    0x0000000000005e31      0x5b5 build/native/contiki-ng-native.a(node-id.o)
+ .debug_info    0x00000000000063e6      0x7eb build/native/contiki-ng-native.a(ctimer.o)
+ .debug_info    0x0000000000006bd1      0x339 build/native/contiki-ng-native.a(rtimer.o)
+ .debug_info    0x0000000000006f0a      0xb6a build/native/contiki-ng-native.a(process.o)
+ .debug_info    0x0000000000007a74      0x34b build/native/contiki-ng-native.a(timer.o)
+ .debug_info    0x0000000000007dbf      0x679 build/native/contiki-ng-native.a(list.o)
+ .debug_info    0x0000000000008438     0x1845 build/native/contiki-ng-native.a(queuebuf.o)
+ .debug_info    0x0000000000009c7d     0x1955 build/native/contiki-ng-native.a(packetbuf.o)
+ .debug_info    0x000000000000b5d2      0x7d0 build/native/contiki-ng-native.a(netstack.o)
+ .debug_info    0x000000000000bda2      0x3af build/native/contiki-ng-native.a(linkaddr.o)
+ .debug_info    0x000000000000c151      0x9a6 build/native/contiki-ng-native.a(nullmac.o)
+ .debug_info    0x000000000000caf7     0x21e1 build/native/contiki-ng-native.a(uip-ds6.o)
+ .debug_info    0x000000000000ecd8     0x18b9 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .debug_info    0x0000000000010591     0x1cef build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .debug_info    0x0000000000012280     0x2083 build/native/contiki-ng-native.a(tcpip.o)
+ .debug_info    0x0000000000014303     0x22d9 build/native/contiki-ng-native.a(uip6.o)
+ .debug_info    0x00000000000165dc     0x1708 build/native/contiki-ng-native.a(uip-nd6.o)
+ .debug_info    0x0000000000017ce4     0x1630 build/native/contiki-ng-native.a(simple-udp.o)
+ .debug_info    0x0000000000019314      0xf2c build/native/contiki-ng-native.a(uiplib.o)
+ .debug_info    0x000000000001a240     0x20f2 build/native/contiki-ng-native.a(rpl.o)
+ .debug_info    0x000000000001c332     0x2841 build/native/contiki-ng-native.a(rpl-dag.o)
+ .debug_info    0x000000000001eb73     0x1c9f build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .debug_info    0x0000000000020812     0x1ba9 build/native/contiki-ng-native.a(platform.o)
+ .debug_info    0x00000000000223bb      0x40c build/native/contiki-ng-native.a(clock.o)
+ .debug_info    0x00000000000227c7     0x2195 build/native/contiki-ng-native.a(tun6-net.o)
+ .debug_info    0x000000000002495c      0x3ec build/native/contiki-ng-native.a(rtimer-arch.o)
+ .debug_info    0x0000000000024d48       0xed build/native/contiki-ng-native.a(watchdog.o)
+ .debug_info    0x0000000000024e35      0x349 build/native/contiki-ng-native.a(stimer.o)
+ .debug_info    0x000000000002517e      0x3e2 build/native/contiki-ng-native.a(memb.o)
+ .debug_info    0x0000000000025560      0x216 build/native/contiki-ng-native.a(random.o)
+ .debug_info    0x0000000000025776      0xa0d build/native/contiki-ng-native.a(button-hal.o)
+ .debug_info    0x0000000000026183      0x4c7 build/native/contiki-ng-native.a(serial-line.o)
+ .debug_info    0x000000000002664a      0x352 build/native/contiki-ng-native.a(leds.o)
+ .debug_info    0x000000000002699c      0x5b1 build/native/contiki-ng-native.a(nullradio.o)
+ .debug_info    0x0000000000026f4d      0xc66 build/native/contiki-ng-native.a(gpio-hal.o)
+ .debug_info    0x0000000000027bb3     0x182f build/native/contiki-ng-native.a(nbr-table.o)
+ .debug_info    0x00000000000293e2     0x1514 build/native/contiki-ng-native.a(link-stats.o)
+ .debug_info    0x000000000002a8f6      0xc32 build/native/contiki-ng-native.a(uipbuf.o)
+ .debug_info    0x000000000002b528     0x1c50 build/native/contiki-ng-native.a(uip-icmp6.o)
+ .debug_info    0x000000000002d178     0x1da1 build/native/contiki-ng-native.a(uip-sr.o)
+ .debug_info    0x000000000002ef19      0xc0a build/native/contiki-ng-native.a(uip-packetqueue)
+ .debug_info    0x000000000002fb23      0x7ea build/native/contiki-ng-native.a(uip-udp-packet.)
+ .debug_info    0x000000000003030d     0x267e build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .debug_info    0x000000000003298b     0x25b0 build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .debug_info    0x0000000000034f3b     0x2274 build/native/contiki-ng-native.a(rpl-timers.o)
+ .debug_info    0x00000000000371af     0x25a0 build/native/contiki-ng-native.a(rpl-ext-header.)
+ .debug_info    0x000000000003974f     0x198c build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .debug_info    0x000000000003b0db     0x1a36 build/native/contiki-ng-native.a(rpl-mrhof.o)
+ .debug_info    0x000000000003cb11      0x36c build/native/contiki-ng-native.a(buttons.o)
+ .debug_info    0x000000000003ce7d      0x247 build/native/contiki-ng-native.a(int-master.o)
+ .debug_info    0x000000000003d0c4      0xc0f build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .debug_info    0x000000000003dcd3      0x2e7 build/native/contiki-ng-native.a(ringbuf.o)
+
+.debug_abbrev   0x0000000000000000     0xad55
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x36f sink_node.o
+ .debug_abbrev  0x000000000000036f      0x315 build/native/contiki-ng-native.a(contiki-main.o)
+ .debug_abbrev  0x0000000000000684      0x146 build/native/contiki-ng-native.a(autostart.o)
+ .debug_abbrev  0x00000000000007ca      0x35a build/native/contiki-ng-native.a(log.o)
+ .debug_abbrev  0x0000000000000b24      0x125 build/native/contiki-ng-native.a(energest.o)
+ .debug_abbrev  0x0000000000000c49      0x357 build/native/contiki-ng-native.a(etimer.o)
+ .debug_abbrev  0x0000000000000fa0      0x180 build/native/contiki-ng-native.a(node-id.o)
+ .debug_abbrev  0x0000000000001120      0x23a build/native/contiki-ng-native.a(ctimer.o)
+ .debug_abbrev  0x000000000000135a      0x1ed build/native/contiki-ng-native.a(rtimer.o)
+ .debug_abbrev  0x0000000000001547      0x3c9 build/native/contiki-ng-native.a(process.o)
+ .debug_abbrev  0x0000000000001910      0x1d4 build/native/contiki-ng-native.a(timer.o)
+ .debug_abbrev  0x0000000000001ae4      0x2b3 build/native/contiki-ng-native.a(list.o)
+ .debug_abbrev  0x0000000000001d97      0x34a build/native/contiki-ng-native.a(queuebuf.o)
+ .debug_abbrev  0x00000000000020e1      0x3d2 build/native/contiki-ng-native.a(packetbuf.o)
+ .debug_abbrev  0x00000000000024b3      0x261 build/native/contiki-ng-native.a(netstack.o)
+ .debug_abbrev  0x0000000000002714      0x1e0 build/native/contiki-ng-native.a(linkaddr.o)
+ .debug_abbrev  0x00000000000028f4      0x23a build/native/contiki-ng-native.a(nullmac.o)
+ .debug_abbrev  0x0000000000002b2e      0x45e build/native/contiki-ng-native.a(uip-ds6.o)
+ .debug_abbrev  0x0000000000002f8c      0x3d3 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .debug_abbrev  0x000000000000335f      0x416 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .debug_abbrev  0x0000000000003775      0x532 build/native/contiki-ng-native.a(tcpip.o)
+ .debug_abbrev  0x0000000000003ca7      0x44f build/native/contiki-ng-native.a(uip6.o)
+ .debug_abbrev  0x00000000000040f6      0x367 build/native/contiki-ng-native.a(uip-nd6.o)
+ .debug_abbrev  0x000000000000445d      0x319 build/native/contiki-ng-native.a(simple-udp.o)
+ .debug_abbrev  0x0000000000004776      0x31a build/native/contiki-ng-native.a(uiplib.o)
+ .debug_abbrev  0x0000000000004a90      0x484 build/native/contiki-ng-native.a(rpl.o)
+ .debug_abbrev  0x0000000000004f14      0x56c build/native/contiki-ng-native.a(rpl-dag.o)
+ .debug_abbrev  0x0000000000005480      0x3d9 build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .debug_abbrev  0x0000000000005859      0x4dd build/native/contiki-ng-native.a(platform.o)
+ .debug_abbrev  0x0000000000005d36      0x20a build/native/contiki-ng-native.a(clock.o)
+ .debug_abbrev  0x0000000000005f40      0x4b6 build/native/contiki-ng-native.a(tun6-net.o)
+ .debug_abbrev  0x00000000000063f6      0x1e2 build/native/contiki-ng-native.a(rtimer-arch.o)
+ .debug_abbrev  0x00000000000065d8       0x9c build/native/contiki-ng-native.a(watchdog.o)
+ .debug_abbrev  0x0000000000006674      0x1b5 build/native/contiki-ng-native.a(stimer.o)
+ .debug_abbrev  0x0000000000006829      0x208 build/native/contiki-ng-native.a(memb.o)
+ .debug_abbrev  0x0000000000006a31      0x156 build/native/contiki-ng-native.a(random.o)
+ .debug_abbrev  0x0000000000006b87      0x319 build/native/contiki-ng-native.a(button-hal.o)
+ .debug_abbrev  0x0000000000006ea0      0x228 build/native/contiki-ng-native.a(serial-line.o)
+ .debug_abbrev  0x00000000000070c8      0x1be build/native/contiki-ng-native.a(leds.o)
+ .debug_abbrev  0x0000000000007286      0x1da build/native/contiki-ng-native.a(nullradio.o)
+ .debug_abbrev  0x0000000000007460      0x257 build/native/contiki-ng-native.a(gpio-hal.o)
+ .debug_abbrev  0x00000000000076b7      0x45e build/native/contiki-ng-native.a(nbr-table.o)
+ .debug_abbrev  0x0000000000007b15      0x37e build/native/contiki-ng-native.a(link-stats.o)
+ .debug_abbrev  0x0000000000007e93      0x2f4 build/native/contiki-ng-native.a(uipbuf.o)
+ .debug_abbrev  0x0000000000008187      0x435 build/native/contiki-ng-native.a(uip-icmp6.o)
+ .debug_abbrev  0x00000000000085bc      0x3fb build/native/contiki-ng-native.a(uip-sr.o)
+ .debug_abbrev  0x00000000000089b7      0x27e build/native/contiki-ng-native.a(uip-packetqueue)
+ .debug_abbrev  0x0000000000008c35      0x255 build/native/contiki-ng-native.a(uip-udp-packet.)
+ .debug_abbrev  0x0000000000008e8a      0x486 build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .debug_abbrev  0x0000000000009310      0x525 build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .debug_abbrev  0x0000000000009835      0x430 build/native/contiki-ng-native.a(rpl-timers.o)
+ .debug_abbrev  0x0000000000009c65      0x43c build/native/contiki-ng-native.a(rpl-ext-header.)
+ .debug_abbrev  0x000000000000a0a1      0x31b build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .debug_abbrev  0x000000000000a3bc      0x33a build/native/contiki-ng-native.a(rpl-mrhof.o)
+ .debug_abbrev  0x000000000000a6f6      0x125 build/native/contiki-ng-native.a(buttons.o)
+ .debug_abbrev  0x000000000000a81b      0x170 build/native/contiki-ng-native.a(int-master.o)
+ .debug_abbrev  0x000000000000a98b      0x261 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .debug_abbrev  0x000000000000abec      0x169 build/native/contiki-ng-native.a(ringbuf.o)
+
+.debug_line     0x0000000000000000     0xa8cf
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x333 sink_node.o
+ .debug_line    0x0000000000000333      0x5b9 build/native/contiki-ng-native.a(contiki-main.o)
+ .debug_line    0x00000000000008ec       0xa9 build/native/contiki-ng-native.a(autostart.o)
+ .debug_line    0x0000000000000995      0x2cc build/native/contiki-ng-native.a(log.o)
+ .debug_line    0x0000000000000c61       0xd4 build/native/contiki-ng-native.a(energest.o)
+ .debug_line    0x0000000000000d35      0x1c4 build/native/contiki-ng-native.a(etimer.o)
+ .debug_line    0x0000000000000ef9      0x124 build/native/contiki-ng-native.a(node-id.o)
+ .debug_line    0x000000000000101d      0x185 build/native/contiki-ng-native.a(ctimer.o)
+ .debug_line    0x00000000000011a2       0xfb build/native/contiki-ng-native.a(rtimer.o)
+ .debug_line    0x000000000000129d      0x235 build/native/contiki-ng-native.a(process.o)
+ .debug_line    0x00000000000014d2       0xfa build/native/contiki-ng-native.a(timer.o)
+ .debug_line    0x00000000000015cc      0x19e build/native/contiki-ng-native.a(list.o)
+ .debug_line    0x000000000000176a      0x341 build/native/contiki-ng-native.a(queuebuf.o)
+ .debug_line    0x0000000000001aab      0x401 build/native/contiki-ng-native.a(packetbuf.o)
+ .debug_line    0x0000000000001eac      0x1c7 build/native/contiki-ng-native.a(netstack.o)
+ .debug_line    0x0000000000002073      0x14d build/native/contiki-ng-native.a(linkaddr.o)
+ .debug_line    0x00000000000021c0      0x1e2 build/native/contiki-ng-native.a(nullmac.o)
+ .debug_line    0x00000000000023a2      0x5ce build/native/contiki-ng-native.a(uip-ds6.o)
+ .debug_line    0x0000000000002970      0x382 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .debug_line    0x0000000000002cf2      0x3e7 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .debug_line    0x00000000000030d9      0x47a build/native/contiki-ng-native.a(tcpip.o)
+ .debug_line    0x0000000000003553      0x667 build/native/contiki-ng-native.a(uip6.o)
+ .debug_line    0x0000000000003bba      0x432 build/native/contiki-ng-native.a(uip-nd6.o)
+ .debug_line    0x0000000000003fec      0x37a build/native/contiki-ng-native.a(simple-udp.o)
+ .debug_line    0x0000000000004366      0x331 build/native/contiki-ng-native.a(uiplib.o)
+ .debug_line    0x0000000000004697      0x4ca build/native/contiki-ng-native.a(rpl.o)
+ .debug_line    0x0000000000004b61      0x619 build/native/contiki-ng-native.a(rpl-dag.o)
+ .debug_line    0x000000000000517a      0x3d0 build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .debug_line    0x000000000000554a      0x494 build/native/contiki-ng-native.a(platform.o)
+ .debug_line    0x00000000000059de      0x19d build/native/contiki-ng-native.a(clock.o)
+ .debug_line    0x0000000000005b7b      0x542 build/native/contiki-ng-native.a(tun6-net.o)
+ .debug_line    0x00000000000060bd      0x1aa build/native/contiki-ng-native.a(rtimer-arch.o)
+ .debug_line    0x0000000000006267       0x7a build/native/contiki-ng-native.a(watchdog.o)
+ .debug_line    0x00000000000062e1       0xd4 build/native/contiki-ng-native.a(stimer.o)
+ .debug_line    0x00000000000063b5      0x19f build/native/contiki-ng-native.a(memb.o)
+ .debug_line    0x0000000000006554       0xb8 build/native/contiki-ng-native.a(random.o)
+ .debug_line    0x000000000000660c      0x251 build/native/contiki-ng-native.a(button-hal.o)
+ .debug_line    0x000000000000685d      0x164 build/native/contiki-ng-native.a(serial-line.o)
+ .debug_line    0x00000000000069c1      0x100 build/native/contiki-ng-native.a(leds.o)
+ .debug_line    0x0000000000006ac1       0xba build/native/contiki-ng-native.a(nullradio.o)
+ .debug_line    0x0000000000006b7b      0x1ec build/native/contiki-ng-native.a(gpio-hal.o)
+ .debug_line    0x0000000000006d67      0x3bb build/native/contiki-ng-native.a(nbr-table.o)
+ .debug_line    0x0000000000007122      0x373 build/native/contiki-ng-native.a(link-stats.o)
+ .debug_line    0x0000000000007495      0x26b build/native/contiki-ng-native.a(uipbuf.o)
+ .debug_line    0x0000000000007700      0x48a build/native/contiki-ng-native.a(uip-icmp6.o)
+ .debug_line    0x0000000000007b8a      0x47c build/native/contiki-ng-native.a(uip-sr.o)
+ .debug_line    0x0000000000008006      0x22d build/native/contiki-ng-native.a(uip-packetqueue)
+ .debug_line    0x0000000000008233      0x1cd build/native/contiki-ng-native.a(uip-udp-packet.)
+ .debug_line    0x0000000000008400      0x6fc build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .debug_line    0x0000000000008afc      0x5c8 build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .debug_line    0x00000000000090c4      0x523 build/native/contiki-ng-native.a(rpl-timers.o)
+ .debug_line    0x00000000000095e7      0x673 build/native/contiki-ng-native.a(rpl-ext-header.)
+ .debug_line    0x0000000000009c5a      0x344 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .debug_line    0x0000000000009f9e      0x3b1 build/native/contiki-ng-native.a(rpl-mrhof.o)
+ .debug_line    0x000000000000a34f      0x152 build/native/contiki-ng-native.a(buttons.o)
+ .debug_line    0x000000000000a4a1      0x106 build/native/contiki-ng-native.a(int-master.o)
+ .debug_line    0x000000000000a5a7      0x218 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .debug_line    0x000000000000a7bf      0x110 build/native/contiki-ng-native.a(ringbuf.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x64e5
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0xb52 sink_node.o
+                                        0xdd0 (size before relaxing)
+ .debug_str     0x0000000000000b52     0x1057 build/native/contiki-ng-native.a(contiki-main.o)
+                                       0x1e28 (size before relaxing)
+ .debug_str     0x0000000000001ba9       0x38 build/native/contiki-ng-native.a(autostart.o)
+                                        0x1d6 (size before relaxing)
+ .debug_str     0x0000000000001be1       0xf4 build/native/contiki-ng-native.a(log.o)
+                                        0x84a (size before relaxing)
+ .debug_str     0x0000000000001cd5       0x42 build/native/contiki-ng-native.a(energest.o)
+                                        0x1da (size before relaxing)
+ .debug_str     0x0000000000001d17      0x15e build/native/contiki-ng-native.a(etimer.o)
+                                        0x367 (size before relaxing)
+ .debug_str     0x0000000000001e75       0x1a build/native/contiki-ng-native.a(node-id.o)
+                                        0x3eb (size before relaxing)
+ .debug_str     0x0000000000001e8f       0xef build/native/contiki-ng-native.a(ctimer.o)
+                                        0x325 (size before relaxing)
+ .debug_str     0x0000000000001f7e       0xd3 build/native/contiki-ng-native.a(rtimer.o)
+                                        0x284 (size before relaxing)
+ .debug_str     0x0000000000002051      0x108 build/native/contiki-ng-native.a(process.o)
+                                        0x4b2 (size before relaxing)
+ .debug_str     0x0000000000002159       0x18 build/native/contiki-ng-native.a(timer.o)
+                                        0x202 (size before relaxing)
+ .debug_str     0x0000000000002171       0x8e build/native/contiki-ng-native.a(list.o)
+                                        0x249 (size before relaxing)
+ .debug_str     0x00000000000021ff      0x3e2 build/native/contiki-ng-native.a(queuebuf.o)
+                                        0xeb9 (size before relaxing)
+ .debug_str     0x00000000000025e1      0x1a0 build/native/contiki-ng-native.a(packetbuf.o)
+                                        0xeda (size before relaxing)
+ .debug_str     0x0000000000002781      0x15c build/native/contiki-ng-native.a(netstack.o)
+                                        0x557 (size before relaxing)
+ .debug_str     0x00000000000028dd       0x3e build/native/contiki-ng-native.a(linkaddr.o)
+                                        0x235 (size before relaxing)
+ .debug_str     0x000000000000291b       0x3f build/native/contiki-ng-native.a(nullmac.o)
+                                        0x5e4 (size before relaxing)
+ .debug_str     0x000000000000295a      0x368 build/native/contiki-ng-native.a(uip-ds6.o)
+                                        0xee4 (size before relaxing)
+ .debug_str     0x0000000000002cc2      0x1f2 build/native/contiki-ng-native.a(uip-ds6-route.o)
+                                        0xee0 (size before relaxing)
+ .debug_str     0x0000000000002eb4      0x379 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+                                       0x1194 (size before relaxing)
+ .debug_str     0x000000000000322d      0x1ba build/native/contiki-ng-native.a(tcpip.o)
+                                       0x131a (size before relaxing)
+ .debug_str     0x00000000000033e7      0x2c0 build/native/contiki-ng-native.a(uip6.o)
+                                       0x1246 (size before relaxing)
+ .debug_str     0x00000000000036a7      0x143 build/native/contiki-ng-native.a(uip-nd6.o)
+                                        0xf0a (size before relaxing)
+ .debug_str     0x00000000000037ea       0xa4 build/native/contiki-ng-native.a(simple-udp.o)
+                                        0xcde (size before relaxing)
+ .debug_str     0x000000000000388e       0x8f build/native/contiki-ng-native.a(uiplib.o)
+                                        0x813 (size before relaxing)
+ .debug_str     0x000000000000391d      0x1aa build/native/contiki-ng-native.a(rpl.o)
+                                       0x1441 (size before relaxing)
+ .debug_str     0x0000000000003ac7      0x5e9 build/native/contiki-ng-native.a(rpl-dag.o)
+                                       0x1728 (size before relaxing)
+ .debug_str     0x00000000000040b0       0xd6 build/native/contiki-ng-native.a(rpl-dag-root.o)
+                                       0x137b (size before relaxing)
+ .debug_str     0x0000000000004186      0x27f build/native/contiki-ng-native.a(platform.o)
+                                        0xf25 (size before relaxing)
+ .debug_str     0x0000000000004405       0xd7 build/native/contiki-ng-native.a(clock.o)
+                                        0x2b6 (size before relaxing)
+ .debug_str     0x00000000000044dc      0x3cd build/native/contiki-ng-native.a(tun6-net.o)
+                                       0x1070 (size before relaxing)
+ .debug_str     0x00000000000048a9       0x92 build/native/contiki-ng-native.a(rtimer-arch.o)
+                                        0x31f (size before relaxing)
+ .debug_str     0x000000000000493b       0x56 build/native/contiki-ng-native.a(watchdog.o)
+                                        0x186 (size before relaxing)
+ .debug_str     0x0000000000004991       0x55 build/native/contiki-ng-native.a(stimer.o)
+                                        0x209 (size before relaxing)
+ .debug_str     0x00000000000049e6       0x36 build/native/contiki-ng-native.a(memb.o)
+                                        0x219 (size before relaxing)
+ .debug_str     0x0000000000004a1c       0x30 build/native/contiki-ng-native.a(random.o)
+                                        0x1dc (size before relaxing)
+ .debug_str     0x0000000000004a4c      0x326 build/native/contiki-ng-native.a(button-hal.o)
+                                        0x61f (size before relaxing)
+ .debug_str     0x0000000000004d72       0x97 build/native/contiki-ng-native.a(serial-line.o)
+                                        0x2d5 (size before relaxing)
+ .debug_str     0x0000000000004e09       0xac build/native/contiki-ng-native.a(leds.o)
+                                        0x271 (size before relaxing)
+ .debug_str     0x0000000000004eb5      0x2e0 build/native/contiki-ng-native.a(nullradio.o)
+                                        0x4fb (size before relaxing)
+ .debug_str     0x0000000000005195      0x152 build/native/contiki-ng-native.a(gpio-hal.o)
+                                        0x907 (size before relaxing)
+ .debug_str     0x00000000000052e7      0x207 build/native/contiki-ng-native.a(nbr-table.o)
+                                        0x887 (size before relaxing)
+ .debug_str     0x00000000000054ee      0x164 build/native/contiki-ng-native.a(link-stats.o)
+                                        0xe79 (size before relaxing)
+ .debug_str     0x0000000000005652      0x1cd build/native/contiki-ng-native.a(uipbuf.o)
+                                        0x6e7 (size before relaxing)
+ .debug_str     0x000000000000581f      0x199 build/native/contiki-ng-native.a(uip-icmp6.o)
+                                       0x1140 (size before relaxing)
+ .debug_str     0x00000000000059b8      0x101 build/native/contiki-ng-native.a(uip-sr.o)
+                                        0xef5 (size before relaxing)
+ .debug_str     0x0000000000005ab9       0xa2 build/native/contiki-ng-native.a(uip-packetqueue)
+                                        0x778 (size before relaxing)
+ .debug_str     0x0000000000005b5b       0x58 build/native/contiki-ng-native.a(uip-udp-packet.)
+                                        0x4d1 (size before relaxing)
+ .debug_str     0x0000000000005bb3       0xe0 build/native/contiki-ng-native.a(rpl-icmp6.o)
+                                       0x162a (size before relaxing)
+ .debug_str     0x0000000000005c93      0x1cb build/native/contiki-ng-native.a(rpl-neighbor.o)
+                                       0x1486 (size before relaxing)
+ .debug_str     0x0000000000005e5e      0x1ac build/native/contiki-ng-native.a(rpl-timers.o)
+                                       0x1454 (size before relaxing)
+ .debug_str     0x000000000000600a      0x1c3 build/native/contiki-ng-native.a(rpl-ext-header.)
+                                       0x17c1 (size before relaxing)
+ .debug_str     0x00000000000061cd       0x80 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+                                       0x12b7 (size before relaxing)
+ .debug_str     0x000000000000624d       0xc2 build/native/contiki-ng-native.a(rpl-mrhof.o)
+                                       0x1023 (size before relaxing)
+ .debug_str     0x000000000000630f       0x2c build/native/contiki-ng-native.a(buttons.o)
+                                        0x31e (size before relaxing)
+ .debug_str     0x000000000000633b       0x50 build/native/contiki-ng-native.a(int-master.o)
+                                        0x232 (size before relaxing)
+ .debug_str     0x000000000000638b      0x122 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+                                        0x933 (size before relaxing)
+ .debug_str     0x00000000000064ad       0x38 build/native/contiki-ng-native.a(ringbuf.o)
+                                        0x214 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1788b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x47d sink_node.o
+ .debug_loc     0x000000000000047d      0x406 build/native/contiki-ng-native.a(contiki-main.o)
+ .debug_loc     0x0000000000000883       0xe0 build/native/contiki-ng-native.a(autostart.o)
+ .debug_loc     0x0000000000000963      0x885 build/native/contiki-ng-native.a(log.o)
+ .debug_loc     0x00000000000011e8      0x898 build/native/contiki-ng-native.a(etimer.o)
+ .debug_loc     0x0000000000001a80      0x794 build/native/contiki-ng-native.a(ctimer.o)
+ .debug_loc     0x0000000000002214      0x193 build/native/contiki-ng-native.a(rtimer.o)
+ .debug_loc     0x00000000000023a7      0xa85 build/native/contiki-ng-native.a(process.o)
+ .debug_loc     0x0000000000002e2c      0x240 build/native/contiki-ng-native.a(timer.o)
+ .debug_loc     0x000000000000306c      0x877 build/native/contiki-ng-native.a(list.o)
+ .debug_loc     0x00000000000038e3      0x317 build/native/contiki-ng-native.a(queuebuf.o)
+ .debug_loc     0x0000000000003bfa      0x5f3 build/native/contiki-ng-native.a(packetbuf.o)
+ .debug_loc     0x00000000000041ed      0x263 build/native/contiki-ng-native.a(netstack.o)
+ .debug_loc     0x0000000000004450       0xdd build/native/contiki-ng-native.a(linkaddr.o)
+ .debug_loc     0x000000000000452d     0x1fdc build/native/contiki-ng-native.a(uip-ds6.o)
+ .debug_loc     0x0000000000006509      0x4a5 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .debug_loc     0x00000000000069ae      0x780 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .debug_loc     0x000000000000712e      0xaa5 build/native/contiki-ng-native.a(tcpip.o)
+ .debug_loc     0x0000000000007bd3      0xb75 build/native/contiki-ng-native.a(uip6.o)
+ .debug_loc     0x0000000000008748      0x1c5 build/native/contiki-ng-native.a(uip-nd6.o)
+ .debug_loc     0x000000000000890d      0x878 build/native/contiki-ng-native.a(simple-udp.o)
+ .debug_loc     0x0000000000009185      0xe2d build/native/contiki-ng-native.a(uiplib.o)
+ .debug_loc     0x0000000000009fb2      0xb45 build/native/contiki-ng-native.a(rpl.o)
+ .debug_loc     0x000000000000aaf7     0x11ab build/native/contiki-ng-native.a(rpl-dag.o)
+ .debug_loc     0x000000000000bca2      0x361 build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .debug_loc     0x000000000000c003      0x5c2 build/native/contiki-ng-native.a(platform.o)
+ .debug_loc     0x000000000000c5c5      0x13b build/native/contiki-ng-native.a(clock.o)
+ .debug_loc     0x000000000000c700      0x886 build/native/contiki-ng-native.a(tun6-net.o)
+ .debug_loc     0x000000000000cf86       0xce build/native/contiki-ng-native.a(rtimer-arch.o)
+ .debug_loc     0x000000000000d054      0x224 build/native/contiki-ng-native.a(stimer.o)
+ .debug_loc     0x000000000000d278      0x31b build/native/contiki-ng-native.a(memb.o)
+ .debug_loc     0x000000000000d593       0x39 build/native/contiki-ng-native.a(random.o)
+ .debug_loc     0x000000000000d5cc      0x713 build/native/contiki-ng-native.a(button-hal.o)
+ .debug_loc     0x000000000000dcdf      0x341 build/native/contiki-ng-native.a(serial-line.o)
+ .debug_loc     0x000000000000e020      0x2bc build/native/contiki-ng-native.a(gpio-hal.o)
+ .debug_loc     0x000000000000e2dc     0x1734 build/native/contiki-ng-native.a(nbr-table.o)
+ .debug_loc     0x000000000000fa10      0x7a8 build/native/contiki-ng-native.a(link-stats.o)
+ .debug_loc     0x00000000000101b8      0x76d build/native/contiki-ng-native.a(uipbuf.o)
+ .debug_loc     0x0000000000010925      0x665 build/native/contiki-ng-native.a(uip-icmp6.o)
+ .debug_loc     0x0000000000010f8a     0x1126 build/native/contiki-ng-native.a(uip-sr.o)
+ .debug_loc     0x00000000000120b0      0x1b5 build/native/contiki-ng-native.a(uip-packetqueue)
+ .debug_loc     0x0000000000012265      0x323 build/native/contiki-ng-native.a(uip-udp-packet.)
+ .debug_loc     0x0000000000012588     0x18f2 build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .debug_loc     0x0000000000013e7a     0x10aa build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .debug_loc     0x0000000000014f24      0x7be build/native/contiki-ng-native.a(rpl-timers.o)
+ .debug_loc     0x00000000000156e2     0x1650 build/native/contiki-ng-native.a(rpl-ext-header.)
+ .debug_loc     0x0000000000016d32      0x210 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .debug_loc     0x0000000000016f42      0x645 build/native/contiki-ng-native.a(rpl-mrhof.o)
+ .debug_loc     0x0000000000017587      0x2a8 build/native/contiki-ng-native.a(gpio-hal-arch.o)
+ .debug_loc     0x000000000001782f       0x5c build/native/contiki-ng-native.a(ringbuf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x2e30
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x60 sink_node.o
+ .debug_ranges  0x0000000000000060       0x50 build/native/contiki-ng-native.a(contiki-main.o)
+ .debug_ranges  0x00000000000000b0      0x100 build/native/contiki-ng-native.a(log.o)
+ .debug_ranges  0x00000000000001b0      0x150 build/native/contiki-ng-native.a(etimer.o)
+ .debug_ranges  0x0000000000000300       0xa0 build/native/contiki-ng-native.a(ctimer.o)
+ .debug_ranges  0x00000000000003a0      0x170 build/native/contiki-ng-native.a(process.o)
+ .debug_ranges  0x0000000000000510      0x140 build/native/contiki-ng-native.a(list.o)
+ .debug_ranges  0x0000000000000650       0x30 build/native/contiki-ng-native.a(queuebuf.o)
+ .debug_ranges  0x0000000000000680      0x200 build/native/contiki-ng-native.a(packetbuf.o)
+ .debug_ranges  0x0000000000000880      0x220 build/native/contiki-ng-native.a(uip-ds6.o)
+ .debug_ranges  0x0000000000000aa0       0x30 build/native/contiki-ng-native.a(uip-ds6-route.o)
+ .debug_ranges  0x0000000000000ad0       0x90 build/native/contiki-ng-native.a(uip-ds6-nbr.o)
+ .debug_ranges  0x0000000000000b60      0x1c0 build/native/contiki-ng-native.a(tcpip.o)
+ .debug_ranges  0x0000000000000d20      0x150 build/native/contiki-ng-native.a(uip6.o)
+ .debug_ranges  0x0000000000000e70      0x170 build/native/contiki-ng-native.a(uip-nd6.o)
+ .debug_ranges  0x0000000000000fe0      0x100 build/native/contiki-ng-native.a(simple-udp.o)
+ .debug_ranges  0x00000000000010e0      0x160 build/native/contiki-ng-native.a(uiplib.o)
+ .debug_ranges  0x0000000000001240      0x130 build/native/contiki-ng-native.a(rpl.o)
+ .debug_ranges  0x0000000000001370      0x210 build/native/contiki-ng-native.a(rpl-dag.o)
+ .debug_ranges  0x0000000000001580       0x70 build/native/contiki-ng-native.a(rpl-dag-root.o)
+ .debug_ranges  0x00000000000015f0      0x120 build/native/contiki-ng-native.a(platform.o)
+ .debug_ranges  0x0000000000001710       0x60 build/native/contiki-ng-native.a(clock.o)
+ .debug_ranges  0x0000000000001770      0x1b0 build/native/contiki-ng-native.a(tun6-net.o)
+ .debug_ranges  0x0000000000001920       0x30 build/native/contiki-ng-native.a(stimer.o)
+ .debug_ranges  0x0000000000001950       0x30 build/native/contiki-ng-native.a(memb.o)
+ .debug_ranges  0x0000000000001980       0xa0 build/native/contiki-ng-native.a(button-hal.o)
+ .debug_ranges  0x0000000000001a20       0x90 build/native/contiki-ng-native.a(serial-line.o)
+ .debug_ranges  0x0000000000001ab0      0x4c0 build/native/contiki-ng-native.a(nbr-table.o)
+ .debug_ranges  0x0000000000001f70       0xd0 build/native/contiki-ng-native.a(link-stats.o)
+ .debug_ranges  0x0000000000002040       0x60 build/native/contiki-ng-native.a(uipbuf.o)
+ .debug_ranges  0x00000000000020a0       0xe0 build/native/contiki-ng-native.a(uip-icmp6.o)
+ .debug_ranges  0x0000000000002180       0xf0 build/native/contiki-ng-native.a(uip-sr.o)
+ .debug_ranges  0x0000000000002270       0x30 build/native/contiki-ng-native.a(uip-udp-packet.)
+ .debug_ranges  0x00000000000022a0      0x290 build/native/contiki-ng-native.a(rpl-icmp6.o)
+ .debug_ranges  0x0000000000002530      0x370 build/native/contiki-ng-native.a(rpl-neighbor.o)
+ .debug_ranges  0x00000000000028a0      0x190 build/native/contiki-ng-native.a(rpl-timers.o)
+ .debug_ranges  0x0000000000002a30      0x310 build/native/contiki-ng-native.a(rpl-ext-header.)
+ .debug_ranges  0x0000000000002d40       0x60 build/native/contiki-ng-native.a(rpl-nbr-policy.)
+ .debug_ranges  0x0000000000002da0       0x90 build/native/contiki-ng-native.a(rpl-mrhof.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(build/native/sink_node.native elf64-x86-64)
